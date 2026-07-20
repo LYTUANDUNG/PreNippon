@@ -37,8 +37,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   // 1. Guard check: Only ROLE_ADMIN allowed
   if (!isAuthenticated || user?.role !== 'ROLE_ADMIN') {
     return (
-      <div className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-950 text-white p-4">
-        <div className="bg-zinc-900 border border-border p-8 rounded-custom max-w-md w-full text-center space-y-6 shadow-2xl">
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-background text-foreground p-4">
+        <div className="bg-background-card border border-border p-8 rounded-custom max-w-md w-full text-center space-y-6 shadow-premium">
           <div className="p-4 bg-accent/15 border border-accent/30 rounded-full text-accent w-16 h-16 flex items-center justify-center mx-auto animate-pulse">
             <ShieldAlert size={32} />
           </div>
@@ -58,7 +58,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full h-10 bg-zinc-950 border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent"
+                className="w-full h-10 bg-background border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
               />
             </div>
             <div className="space-y-1">
@@ -68,7 +68,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full h-10 bg-zinc-950 border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent"
+                className="w-full h-10 bg-background border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
               />
             </div>
 
@@ -102,10 +102,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   ];
 
   return (
-    <div className="flex min-h-screen bg-zinc-950 text-white font-sans transition-colors">
+    <div className="flex min-h-screen bg-background text-foreground font-sans transition-colors">
       
       {/* Admin Sidebar */}
-      <aside className="w-64 bg-zinc-900 border-r border-border flex flex-col justify-between shrink-0 h-screen sticky top-0">
+      <aside className="w-64 bg-background-card border-r border-border flex flex-col justify-between shrink-0 h-screen sticky top-0">
         <div className="p-5 space-y-8">
           
           {/* Logo brand */}
@@ -126,7 +126,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <Link
                   key={idx}
                   href={item.href}
-                  className="flex items-center gap-3 px-3 py-2.5 rounded-custom hover:bg-zinc-950 hover:text-foreground transition-all duration-150"
+                  className="flex items-center gap-3 px-3 py-2.5 rounded-custom hover:bg-background-card-hover hover:text-foreground transition-all duration-150"
                 >
                   <Icon size={16} className="text-accent" />
                   <span>{item.label}</span>
@@ -137,12 +137,12 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         </div>
 
         {/* User Info footer and logout */}
-        <div className="p-4 border-t border-border/50 space-y-3 bg-zinc-950/40">
+        <div className="p-4 border-t border-border/50 space-y-3 bg-background-card-hover/20">
           <div className="flex items-center gap-2">
             <img
               src={`https://api.dicebear.com/7.x/adventurer/svg?seed=${user.email}`}
               alt={user.fullName}
-              className="w-7 h-7 rounded-full bg-zinc-950"
+              className="w-7 h-7 rounded-full bg-background-card"
             />
             <div className="overflow-hidden">
               <p className="text-[11px] font-bold text-foreground truncate">{user.fullName}</p>
@@ -151,7 +151,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           </div>
           <button
             onClick={() => { logout(); addToast('Đã đăng xuất tài khoản quản trị.', 'info'); }}
-            className="w-full h-8 flex items-center justify-center gap-1.5 bg-zinc-900 hover:bg-accent hover:text-white border border-border text-[10px] font-black uppercase rounded-custom transition-all"
+            className="w-full h-8 flex items-center justify-center gap-1.5 bg-background-card hover:bg-accent hover:text-white border border-border text-[10px] font-black uppercase rounded-custom transition-all"
           >
             <LogOut size={12} /> Đăng xuất
           </button>
@@ -159,7 +159,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       </aside>
 
       {/* Main Content Area */}
-      <main className="flex-grow p-8 h-screen overflow-y-auto bg-zinc-950/10">
+      <main className="flex-grow p-8 h-screen overflow-y-auto bg-background">
         {children}
       </main>
 

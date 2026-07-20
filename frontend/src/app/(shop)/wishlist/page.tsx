@@ -46,8 +46,8 @@ export default function WishlistPage() {
         <div className="py-12">
           <EmptyState
             title="Danh sách yêu thích trống!"
-            message="Bạn chưa lưu mô hình nào vào danh sách yêu thích. Hãy quay lại xem sản phẩm và nhấn trái tim nhé!"
-            buttonText="Tìm kiếm figure ngay"
+            message="Bạn chưa lưu sản phẩm nào vào danh sách yêu thích. Hãy quay lại xem sản phẩm và nhấn trái tim nhé!"
+            buttonText="Tìm kiếm sản phẩm ngay"
             icon={Heart}
           />
         </div>

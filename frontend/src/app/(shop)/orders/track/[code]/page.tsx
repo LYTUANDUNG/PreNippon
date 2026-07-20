@@ -118,12 +118,12 @@ export default function OrderTrackPage() {
 
         <div className="bg-background-card border border-border p-4 rounded-custom space-y-2">
           <p className="text-[10px] uppercase font-bold text-foreground-muted flex items-center gap-1.5">
-            <Package size={12} className="text-accent" /> Thông tin mô hình
+            <Package size={12} className="text-accent" /> Thông tin sản phẩm
           </p>
           <div className="space-y-1 overflow-hidden">
             {order.items.map((item, idx) => (
               <p key={idx} className="text-xs font-bold text-foreground truncate">
-                • {item.quantity}x {item.product?.name || `Figure SKU ${item.productId}`}
+                • {item.quantity}x {item.product?.name || `Cosmetic SKU ${item.productId}`}
               </p>
             ))}
           </div>

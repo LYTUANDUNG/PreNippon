@@ -63,8 +63,8 @@ export default function ProductDetailPage() {
     return (
       <div className="py-16">
         <EmptyState
-          title="Không tìm thấy figure!"
-          message="Mô hình này không tồn tại hoặc đã bị ngừng phân phối tại PreNippon Store."
+          title="Không tìm thấy sản phẩm!"
+          message="Sản phẩm này không tồn tại hoặc đã bị ngừng phân phối tại PreNippon Store."
           buttonText="Về trang danh sách"
           linkUrl="/products"
         />
@@ -231,7 +231,7 @@ export default function ProductDetailPage() {
             </button>
             <button
               onClick={handleToggleWishlist}
-              className={`px-4 bg-zinc-900 border border-border hover:border-accent hover:text-accent rounded-custom transition-all flex items-center justify-center ${
+              className={`px-4 bg-background-card border border-border hover:border-accent hover:text-accent rounded-custom transition-all flex items-center justify-center ${
                 isInWishlist(product.id) ? 'text-accent border-accent' : 'text-foreground-muted'
               }`}
             >
@@ -286,17 +286,17 @@ export default function ProductDetailPage() {
           {activeTab === 'desc' && <p>{product.description}</p>}
 
           {activeTab === 'specs' && (
-            <div className="max-w-md border border-border rounded-custom overflow-hidden text-xs">
+            <div className="max-w-md border border-border rounded-custom overflow-hidden text-xs bg-background-card">
               {[
-                { label: 'Tên mô hình', val: product.name },
-                { label: 'Nhà sản xuất', val: product.manufacturer || product.brand.name },
-                { label: 'Series Anime', val: product.series.name },
-                { label: 'Nhân vật', val: product.character || 'N/A' },
-                { label: 'Tỷ lệ (Scale)', val: product.scale || 'Non-scale' },
-                { label: 'Chất liệu', val: product.material || 'PVC, ABS' },
-                { label: 'Kích thước chiều cao', val: product.height || 'N/A' },
+                { label: 'Tên sản phẩm', val: product.name },
+                { label: 'Thương hiệu', val: product.manufacturer || product.brand.name },
+                { label: 'Bộ sưu tập', val: product.series.name },
+                { label: 'Công dụng chính', val: product.character || 'N/A' },
+                { label: 'Dung tích', val: product.scale || 'N/A' },
+                { label: 'Thành phần chính', val: product.material || 'N/A' },
+                { label: 'Loại da phù hợp', val: product.height || 'Mọi loại da' },
               ].map((spec, idx) => (
-                <div key={idx} className="grid grid-cols-4 p-3 border-b border-border/50 last:border-b-0 bg-zinc-950/20">
+                <div key={idx} className="grid grid-cols-4 p-3 border-b border-border/50 last:border-b-0 bg-background-card-hover/20">
                   <span className="font-bold text-foreground col-span-1">{spec.label}</span>
                   <span className="col-span-3 text-foreground-muted">{spec.val}</span>
                 </div>
@@ -306,13 +306,13 @@ export default function ProductDetailPage() {
 
           {activeTab === 'faq' && (
             <div className="space-y-4">
-              <div className="bg-zinc-950 p-4 border border-border rounded-custom">
+              <div className="bg-background-card p-4 border border-border rounded-custom">
                 <p className="font-bold text-foreground mb-1">Q: Khi nào thì tôi cần thanh toán phần tiền còn lại?</p>
-                <p>A: Khi hàng về đến kho Việt Nam, hệ thống sẽ gửi thông báo (email + SMS + tài khoản). Bạn truy cập đơn hàng chọn &ldquo;Thanh toán nốt&rdquo; để hoàn tất trước khi giao.</p>
+                <p>A: Khi hàng về đến kho Việt Nam, hệ thống sẽ gửi thông báo (email + SMS + tài khoản). Bạn truy cập đơn hàng chọn &ldquo;Thanh toán nốt&rdquo; để hoàn tất trước khi giao hàng.</p>
               </div>
-              <div className="bg-zinc-950 p-4 border border-border rounded-custom">
+              <div className="bg-background-card p-4 border border-border rounded-custom">
                 <p className="font-bold text-foreground mb-1">Q: Tôi có thể hủy preorder và nhận lại tiền cọc không?</p>
-                <p>A: Khoản tiền đặt cọc 30% được dùng để chuyển cho hãng Nhật chốt suất nên sẽ KHÔNG được hoàn lại nếu khách hàng tự ý hủy đơn vì lý do chủ quan.</p>
+                <p>A: Khoản tiền đặt cọc 30% được dùng để thanh toán giữ chỗ và đặt mua các dòng sản phẩm giới hạn trực tiếp từ hãng sản xuất ở nước ngoài nên sẽ KHÔNG được hoàn trả nếu quý khách tự ý hủy đơn vì lý do cá nhân.</p>
               </div>
             </div>
           )}

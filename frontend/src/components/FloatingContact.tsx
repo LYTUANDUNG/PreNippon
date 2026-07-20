@@ -51,7 +51,7 @@ export default function FloatingContact() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.5 }}
             onClick={scrollToTop}
-            className="p-3 bg-zinc-900 border border-border text-foreground hover:text-accent hover:border-accent rounded-full shadow-lg transition-all flex items-center justify-center cursor-pointer"
+            className="p-3 bg-background-card border border-border text-foreground hover:text-accent hover:border-accent rounded-full shadow-premium transition-all flex items-center justify-center cursor-pointer"
             title="Cuộn lên đầu"
           >
             <ArrowUp size={18} />

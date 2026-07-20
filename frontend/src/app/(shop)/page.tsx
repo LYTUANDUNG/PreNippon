@@ -33,14 +33,14 @@ export default function HomePage() {
 
   if (!siteLoaded) {
     return (
-      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-zinc-950 text-white">
+      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background text-foreground">
         <motion.div
           animate={{ scale: [1, 1.15, 1], rotate: [0, 360, 360] }}
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
           className="w-12 h-12 border-4 border-accent border-t-transparent rounded-full mb-4"
         />
         <h2 className="text-sm font-black uppercase tracking-widest text-accent animate-pulse">
-          PreNippon Figure Store
+          PreNippon Premium Cosmetics
         </h2>
       </div>
     );
@@ -64,18 +64,18 @@ export default function HomePage() {
     .sort((a, b) => b.id - a.id)
     .slice(0, 8);
 
-  // Categories list with custom Unsplash images matching figure styles
+  // Categories list with custom Unsplash images matching cosmetics styles
   const categoryCards = [
-    { name: "Scale Figure", slug: "scale-figure", img: "https://images.unsplash.com/photo-1608889174633-8a3d3c8b4042?w=500" },
-    { name: "Nendoroid", slug: "nendoroid", img: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500" },
-    { name: "POP UP PARADE", slug: "pop-up-parade", img: "https://images.unsplash.com/photo-1559893088-c0787ebfc084?w=500" },
-    { name: "Model Kit", slug: "model-kit", img: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=500" }
+    { name: "Serum & Tinh chất", slug: "serum", img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500" },
+    { name: "Kem Dưỡng Da", slug: "kem-duong", img: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=500" },
+    { name: "Kem Chống Nắng", slug: "kem-chong-nang", img: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=500" },
+    { name: "Son Điệu Đà", slug: "son-moi", img: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500" }
   ];
 
   const mockReviews = [
-    { name: "Nguyễn Minh T.", role: "Collector", rating: 5, comment: "Dịch vụ pre-order cực kỳ uy tín, hàng về đúng hẹn và đóng gói siêu kỹ 3 lớp xốp khí chống móp méo hộp." },
-    { name: "Hoàng Gia B.", role: "Gundam Builder", rating: 5, comment: "Giá đặt cọc hợp lý chỉ 30%, cập nhật timeline hải quan liên tục giúp mình an tâm theo dõi." },
-    { name: "Phan Quỳnh A.", role: "Nendo Fan", rating: 5, comment: "Figure xinh lung linh chính hãng Nhật Bản phát hiện fake đền gấp 10 lần nên rất tin tưởng." }
+    { name: "Nguyễn Minh T.", role: "Skincare Lover", rating: 5, comment: "Dịch vụ pre-order cực kỳ uy tín, hàng chuẩn auth đền bù 10 lần nếu fake nên mình rất yên tâm đặt serum SK-II." },
+    { name: "Hoàng Gia B.", role: "Makeup Artist", rating: 5, comment: "Giá đặt cọc gom order hợp lý chỉ từ 30%, cập nhật lộ trình giao hàng hải quan nhanh chóng minh bạch." },
+    { name: "Phan Quỳnh A.", role: "Beauty Blogger", rating: 5, comment: "Mỹ phẩm mua ở đây chuẩn xịn, hộp và chai còn nguyên seal, bọc chống sốc cực kỳ chắc chắn." }
   ];
 
   return (
@@ -94,7 +94,7 @@ export default function HomePage() {
             </div>
             <div>
               <h2 className="text-xl font-black uppercase tracking-tight">Flash Sale Trong Tuần</h2>
-              <p className="text-[11px] text-foreground-muted">Các mô hình có sẵn thanh lý xả kho số lượng cực giới hạn</p>
+              <p className="text-[11px] text-foreground-muted">Các dòng sản phẩm chăm sóc da có sẵn giá ưu đãi xả kho giới hạn</p>
             </div>
           </div>
           {/* Mock Countdown Clock */}
@@ -186,7 +186,7 @@ export default function HomePage() {
             </div>
             <div>
               <h2 className="text-xl font-black uppercase tracking-tight">Hàng Mới Cập Bến</h2>
-              <p className="text-[11px] text-foreground-muted">Cập nhật liên tục các mẫu figure mới phát hành chính hãng</p>
+              <p className="text-[11px] text-foreground-muted">Cập nhật liên tục các dòng mỹ phẩm chính hãng mới nhất</p>
             </div>
           </div>
           <Link
@@ -237,7 +237,7 @@ export default function HomePage() {
       {/* 7. LATEST BLOG NEWS FEED */}
       <section className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between border-b border-border/80 pb-4 mb-6">
-          <h2 className="text-xl font-black uppercase tracking-tight">Tin Tức Figure & Anime</h2>
+          <h2 className="text-xl font-black uppercase tracking-tight">Cẩm Nang Làm Đẹp & Tin Tức</h2>
           <Link
             href={ROUTES.BLOGS}
             className="text-xs font-bold text-foreground-muted hover:text-accent flex items-center gap-0.5 transition-colors uppercase tracking-wider"

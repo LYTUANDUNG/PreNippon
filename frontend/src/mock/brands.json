@@ -1,7 +1,62 @@
 [
-  { "id": 1, "name": "Good Smile Company", "slug": "good-smile-company" },
-  { "id": 2, "name": "Kotobukiya", "slug": "kotobukiya" },
-  { "id": 3, "name": "Alter", "slug": "alter" },
-  { "id": 4, "name": "Bandai Spirits", "slug": "bandai-spirits" },
-  { "id": 5, "name": "Max Factory", "slug": "max-factory" }
+  {
+    "id": 1,
+    "name": "SK-II",
+    "slug": "sk-ii"
+  },
+  {
+    "id": 2,
+    "name": "Shiseido",
+    "slug": "shiseido"
+  },
+  {
+    "id": 3,
+    "name": "Anua",
+    "slug": "anua"
+  },
+  {
+    "id": 4,
+    "name": "Round Lab",
+    "slug": "round-lab"
+  },
+  {
+    "id": 5,
+    "name": "Torriden",
+    "slug": "torriden"
+  },
+  {
+    "id": 6,
+    "name": "La Roche-Posay",
+    "slug": "la-roche-posay"
+  },
+  {
+    "id": 7,
+    "name": "Bioderma",
+    "slug": "bioderma"
+  },
+  {
+    "id": 8,
+    "name": "CeraVe",
+    "slug": "cerave"
+  },
+  {
+    "id": 9,
+    "name": "COSRX",
+    "slug": "cosrx"
+  },
+  {
+    "id": 10,
+    "name": "Hada Labo",
+    "slug": "hada-labo"
+  },
+  {
+    "id": 11,
+    "name": "Laneige",
+    "slug": "laneige"
+  },
+  {
+    "id": 12,
+    "name": "Kiehl's",
+    "slug": "kiehls"
+  }
 ]

@@ -124,8 +124,8 @@ export default function Header() {
           <span className="text-xl font-black text-foreground tracking-tighter">
             PRE<span className="text-accent">NIPPON</span>
           </span>
-          <span className="hidden sm:inline-block text-[9px] font-bold text-accent px-1 py-0.5 border border-accent/30 rounded uppercase tracking-widest">
-            Figure
+          <span className="hidden sm:inline-block text-[9px] font-bold text-accent px-1.5 py-0.5 border border-accent/30 rounded uppercase tracking-widest">
+            AUTHENTIC
           </span>
         </Link>
 
@@ -158,11 +158,11 @@ export default function Header() {
             <form onSubmit={handleSearchSubmit}>
               <input
                 type="text"
-                placeholder="Tìm figure, anime..."
+                placeholder="Tìm mỹ phẩm, thương hiệu..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onFocus={() => setIsSearchFocused(true)}
-                className="w-full h-9 bg-zinc-900 border border-border text-foreground rounded-custom px-3 pr-8 text-xs font-semibold placeholder:text-foreground-muted outline-none focus:border-accent transition-all"
+                className="w-full h-9 bg-background-card border border-border text-foreground rounded-custom px-3 pr-8 text-xs font-semibold placeholder:text-foreground-muted outline-none focus:border-accent transition-all"
               />
               <button type="submit" className="absolute right-2.5 top-1/2 -translate-y-1/2 text-foreground-muted hover:text-accent transition-colors">
                 <Search size={14} />
@@ -182,7 +182,7 @@ export default function Header() {
                         key={p.id}
                         href={ROUTES.PRODUCT_DETAIL(p.slug)}
                         onClick={() => setIsSearchFocused(false)}
-                        className="flex items-center gap-2.5 p-2 rounded-custom hover:bg-zinc-900 transition-colors"
+                        className="flex items-center gap-2.5 p-2 rounded-custom hover:bg-background-card-hover transition-colors"
                       >
                         <img
                           src={p.images.find((img) => img.isThumbnail)?.url || p.images[0]?.url}
@@ -216,7 +216,7 @@ export default function Header() {
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-zinc-900 transition-colors"
+              className="p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-background-card-hover transition-colors"
               title="Đổi giao diện"
             >
               {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
@@ -225,7 +225,7 @@ export default function Header() {
             {/* Wishlist */}
             <Link
               href={ROUTES.WISHLIST}
-              className="p-2 text-foreground-muted hover:text-accent rounded-full hover:bg-zinc-900 transition-colors relative"
+              className="p-2 text-foreground-muted hover:text-accent rounded-full hover:bg-background-card-hover transition-colors relative"
               title="Yêu thích"
             >
               <Heart size={17} />
@@ -239,7 +239,7 @@ export default function Header() {
             {/* Cart */}
             <Link
               href={ROUTES.CART}
-              className="p-2 text-foreground-muted hover:text-accent rounded-full hover:bg-zinc-900 transition-colors relative"
+              className="p-2 text-foreground-muted hover:text-accent rounded-full hover:bg-background-card-hover transition-colors relative"
               title="Giỏ hàng"
             >
               <ShoppingCart size={17} />
@@ -255,12 +255,12 @@ export default function Header() {
               <div className="relative" ref={dropdownRef}>
                 <button
                   onClick={() => setUserDropdownOpen(!userDropdownOpen)}
-                  className="flex items-center gap-1 p-1 bg-zinc-900 border border-border hover:border-accent rounded-full text-foreground transition-all cursor-pointer"
+                  className="flex items-center gap-1 p-1 bg-background-card border border-border hover:border-accent rounded-full text-foreground transition-all cursor-pointer"
                 >
                   <img
                     src={`https://api.dicebear.com/7.x/adventurer/svg?seed=${user.email}`}
                     alt={user.fullName}
-                    className="w-7 h-7 rounded-full bg-zinc-950"
+                    className="w-7 h-7 rounded-full bg-background-card-hover"
                   />
                   <ChevronDown size={12} className="text-foreground-muted mr-1" />
                 </button>
@@ -286,7 +286,7 @@ export default function Header() {
                         <Link
                           href={ROUTES.ADMIN.DASHBOARD}
                           onClick={() => setUserDropdownOpen(false)}
-                          className="flex items-center gap-2 p-1.5 text-xs text-foreground-muted hover:text-foreground hover:bg-zinc-900 rounded transition-all"
+                          className="flex items-center gap-2 p-1.5 text-xs text-foreground-muted hover:text-foreground hover:bg-background-card-hover rounded transition-all"
                         >
                           <LayoutDashboard size={14} className="text-accent" />
                           <span>Bảng quản trị</span>
@@ -295,7 +295,7 @@ export default function Header() {
                       <Link
                         href={ROUTES.ORDERS}
                         onClick={() => setUserDropdownOpen(false)}
-                        className="flex items-center gap-2 p-1.5 text-xs text-foreground-muted hover:text-foreground hover:bg-zinc-900 rounded transition-all"
+                        className="flex items-center gap-2 p-1.5 text-xs text-foreground-muted hover:text-foreground hover:bg-background-card-hover rounded transition-all"
                       >
                         <ShoppingCart size={14} />
                         <span>Đơn hàng của tôi</span>
@@ -314,7 +314,7 @@ export default function Header() {
             ) : (
               <button
                 onClick={() => setLoginModalOpen(true)}
-                className="p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-zinc-900 transition-colors"
+                className="p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-background-card-hover transition-colors"
                 title="Đăng nhập tài khoản"
               >
                 <UserIcon size={17} />
@@ -324,7 +324,7 @@ export default function Header() {
             {/* Mobile menu trigger */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-zinc-900 transition-colors"
+              className="lg:hidden p-2 text-foreground-muted hover:text-foreground rounded-full hover:bg-background-card-hover transition-colors"
             >
               {mobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
@@ -396,7 +396,7 @@ export default function Header() {
               Nhập email demo để test phân quyền. Mật khẩu mặc định là <span className="font-bold text-foreground">123456</span>.
             </p>
 
-            <div className="space-y-1 bg-zinc-950 p-2.5 rounded-custom border border-border/50">
+            <div className="space-y-1 bg-background-card-hover p-2.5 rounded-custom border border-border">
               <p className="text-[9px] uppercase font-extrabold text-foreground-muted">Tài khoản mẫu:</p>
               <p className="text-[10px] text-foreground-muted">
                 Admin: <span className="text-foreground font-mono select-all">admin1@prenippon.com</span>
@@ -415,7 +415,7 @@ export default function Header() {
                   placeholder="name@example.com"
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
-                  className="w-full h-10 bg-zinc-900 border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                  className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
                 />
               </div>
               <div className="space-y-1">
@@ -426,7 +426,7 @@ export default function Header() {
                   placeholder="Mật khẩu"
                   value={loginPassword}
                   onChange={(e) => setLoginPassword(e.target.value)}
-                  className="w-full h-10 bg-zinc-900 border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                  className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
                 />
               </div>
               <button

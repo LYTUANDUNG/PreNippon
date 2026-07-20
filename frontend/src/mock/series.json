@@ -1,10 +1,32 @@
 [
-  { "id": 1, "name": "One Piece", "slug": "one-piece" },
-  { "id": 2, "name": "Naruto Shippuden", "slug": "naruto" },
-  { "id": 3, "name": "Hatsune Miku", "slug": "hatsune-miku" },
-  { "id": 4, "name": "Jujutsu Kaisen", "slug": "jujutsu-kaisen" },
-  { "id": 5, "name": "Demon Slayer", "slug": "demon-slayer" },
-  { "id": 6, "name": "Genshin Impact", "slug": "genshin-impact" },
-  { "id": 7, "name": "Evangelion", "slug": "evangelion" },
-  { "id": 8, "name": "Fate/Grand Order", "slug": "fate-grand-order" }
+  {
+    "id": 1,
+    "name": "Dưỡng Sáng Độc Quyền (Brightening)",
+    "slug": "brightening-line"
+  },
+  {
+    "id": 2,
+    "name": "Cấp Ẩm Phục Hồi Sâu (Hydrating & Barrier)",
+    "slug": "hydrating-barrier-line"
+  },
+  {
+    "id": 3,
+    "name": "Làm Dịu Da Ngừa Mụn (Acne Soothing)",
+    "slug": "acne-soothing-line"
+  },
+  {
+    "id": 4,
+    "name": "Chống Lão Hóa Trẻ Hóa (Advanced Anti-Aging)",
+    "slug": "anti-aging-line"
+  },
+  {
+    "id": 5,
+    "name": "Chống Nắng Phổ Rộng (Broad Spectrum)",
+    "slug": "broad-spectrum-line"
+  },
+  {
+    "id": 6,
+    "name": "Làm Sạch Dịu Nhẹ (Gentle Cleansing)",
+    "slug": "gentle-cleansing-line"
+  }
 ]

@@ -234,10 +234,10 @@ export default function CartPage() {
           <div className="bg-zinc-950/60 border border-border/50 p-4 rounded-custom space-y-2 text-[11px] leading-relaxed text-foreground-muted">
             <p className="flex items-center gap-1.5 font-bold text-foreground">
               <ShieldCheck size={14} className="text-accent" />
-              Cam kết từ PreNippon Figure
+              Cam kết từ PreNippon Store
             </p>
             <p>
-              Đối với đơn hàng Pre-order, bạn chỉ cần trả tiền cọc. Chúng tôi sẽ giữ chỗ suất mô hình và liên hệ ngay khi hàng cập bến kho Việt Nam.
+              Đối với đơn hàng Pre-order, bạn chỉ cần trả trước tiền cọc. Chúng tôi sẽ đặt chỗ suất mua sản phẩm chính hãng và liên hệ ngay khi hàng cập bến kho Việt Nam.
             </p>
           </div>
         </div>

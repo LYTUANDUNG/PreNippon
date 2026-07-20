@@ -30,9 +30,9 @@ export default function BlogsPage() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-border pb-4">
         <div className="text-left">
           <h1 className="text-2xl font-black uppercase tracking-tight flex items-center gap-2">
-            <BookOpen size={24} className="text-accent" /> Tin Tức & Blog Mô Hình
+            <BookOpen size={24} className="text-accent" /> Cẩm Nang Làm Đẹp & Tin Tức
           </h1>
-          <p className="text-xs text-foreground-muted">Kiến thức sưu tầm figure, review sản phẩm và hướng dẫn chi tiết cho Otaku</p>
+          <p className="text-xs text-foreground-muted">Chia sẻ kiến thức skincare, makeup, review mỹ phẩm chân thực và các bí quyết làm đẹp khoa học.</p>
         </div>
         
         {/* Search bar */}

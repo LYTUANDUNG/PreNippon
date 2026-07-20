@@ -9,55 +9,68 @@ let blogIdCounter = 1;
 let reviewIdCounter = 1;
 let bannerIdCounter = 1;
 
-// Define Base Lists
+// 1. Define Cosmetics Categories
 const categories = [
-  { id: 1, name: "Figure", slug: "figure", parentId: null },
-  { id: 2, name: "Scale Figure", slug: "scale-figure", parentId: 1 },
-  { id: 3, name: "Nendoroid", slug: "nendoroid", parentId: 1 },
-  { id: 4, name: "POP UP PARADE", "slug": "pop-up-parade", parentId: 1 },
-  { id: 5, name: "Model Kit", slug: "model-kit", parentId: null },
-  { id: 6, name: "Merchandise", slug: "merchandise", parentId: null },
-  { id: 7, name: "Phụ kiện", slug: "accessories", parentId: null },
-  { id: 8, name: "Sale", slug: "sale", parentId: null }
+  { id: 1, name: "Skincare", slug: "skincare", parentId: null },
+  { id: 2, name: "Makeup", slug: "makeup", parentId: null },
+  { id: 3, name: "Serum & Tinh chất", slug: "serum", parentId: 1 },
+  { id: 4, name: "Kem Dưỡng", slug: "kem-duong", parentId: 1 },
+  { id: 5, name: "Kem Chống Nắng", slug: "kem-chong-nang", parentId: 1 },
+  { id: 6, name: "Toner & Nước hoa hồng", slug: "toner", parentId: 1 },
+  { id: 7, name: "Sữa Rửa Mặt", slug: "sua-rua-mat", parentId: 1 },
+  { id: 8, name: "Son Môi", slug: "son-moi", parentId: 2 },
+  { id: 9, name: "Cushion & Kem nền", slug: "cushion", parentId: 2 },
+  { id: 10, name: "Nước Tẩy Trang", slug: "nuoc-tay-trang", parentId: 1 },
+  { id: 11, name: "Chăm sóc tóc", slug: "cham-soc-toc", parentId: null },
+  { id: 12, name: "Chăm sóc cơ thể", slug: "cham-soc-co-the", parentId: null },
+  { id: 13, name: "Sale", slug: "sale", parentId: null }
 ];
 
+// 2. Define High-end Cosmetics Brands
 const brands = [
-  { id: 1, name: "Good Smile Company", slug: "good-smile-company" },
-  { id: 2, name: "Kotobukiya", slug: "kotobukiya" },
-  { id: 3, name: "Alter", slug: "alter" },
-  { id: 4, name: "Bandai Spirits", slug: "bandai-spirits" },
-  { id: 5, name: "Max Factory", slug: "max-factory" }
+  { id: 1, name: "SK-II", slug: "sk-ii" },
+  { id: 2, name: "Shiseido", slug: "shiseido" },
+  { id: 3, name: "Anua", slug: "anua" },
+  { id: 4, name: "Round Lab", slug: "round-lab" },
+  { id: 5, name: "Torriden", slug: "torriden" },
+  { id: 6, name: "La Roche-Posay", slug: "la-roche-posay" },
+  { id: 7, name: "Bioderma", slug: "bioderma" },
+  { id: 8, name: "CeraVe", slug: "cerave" },
+  { id: 9, name: "COSRX", slug: "cosrx" },
+  { id: 10, name: "Hada Labo", slug: "hada-labo" },
+  { id: 11, name: "Laneige", slug: "laneige" },
+  { id: 12, name: "Kiehl's", slug: "kiehls" }
 ];
 
+// 3. Define Cosmetics Collections / Lines (instead of figures series)
 const series = [
-  { id: 1, name: "One Piece", slug: "one-piece" },
-  { id: 2, name: "Naruto Shippuden", slug: "naruto" },
-  { id: 3, name: "Hatsune Miku", slug: "hatsune-miku" },
-  { id: 4, name: "Jujutsu Kaisen", slug: "jujutsu-kaisen" },
-  { id: 5, name: "Demon Slayer", slug: "demon-slayer" },
-  { id: 6, name: "Genshin Impact", slug: "genshin-impact" },
-  { id: 7, name: "Evangelion", slug: "evangelion" },
-  { id: 8, name: "Fate/Grand Order", slug: "fate-grand-order" }
+  { id: 1, name: "Dưỡng Sáng Độc Quyền (Brightening)", slug: "brightening-line" },
+  { id: 2, name: "Cấp Ẩm Phục Hồi Sâu (Hydrating & Barrier)", slug: "hydrating-barrier-line" },
+  { id: 3, name: "Làm Dịu Da Ngừa Mụn (Acne Soothing)", slug: "acne-soothing-line" },
+  { id: 4, name: "Chống Lão Hóa Trẻ Hóa (Advanced Anti-Aging)", slug: "anti-aging-line" },
+  { id: 5, name: "Chống Nắng Phổ Rộng (Broad Spectrum)", slug: "broad-spectrum-line" },
+  { id: 6, name: "Làm Sạch Dịu Nhẹ (Gentle Cleansing)", slug: "gentle-cleansing-line" }
 ];
 
-// Unsplash high quality anime figure-like or model images
-const figureImages = [
-  "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1608889174633-8a3d3c8b4042?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1559893088-c0787ebfc084?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop&q=80"
+// Unsplash premium high resolution cosmetics, skincare, and makeup images
+const cosmeticsImages = [
+  "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&auto=format&fit=crop&q=80",
+  "https://images.unsplash.com/photo-1601612620969-983dc1551a0c?w=800&auto=format&fit=crop&q=80"
 ];
 
-// Helper to get random item
+// Helper to get random items
 const randItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const randRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const randFloat = (min, max) => parseFloat((Math.random() * (max - min) + min).toFixed(2));
@@ -72,7 +85,7 @@ const names = [
   "Đặng Ngọc K", "Trịnh Hữu L", "Bùi Thế M", "Lý Hoài N", "Ngô Bảo O",
   "Dương Hồng P", "Trần Vĩnh Q", "Lương Đức R", "Phùng Hải S", "Vũ Hoàng T",
   "Lê Văn U", "Nguyễn Quốc V", "Phạm Xuân W", "Bùi Văn X", "Trần Như Y", "Lê Thanh Z",
-  "Admin PreNippon", "Manager Figure", "Tech Lead Morachi", "Tester PreNippon"
+  "Admin PreNippon", "Manager Cosmetics", "Consultant Lead", "Tester PreNippon"
 ];
 
 for (let i = 0; i < 30; i++) {
@@ -122,52 +135,72 @@ for (let i = 0; i < 30; i++) {
   });
 }
 
-// Generate 50 Products
-const products = [];
-const animeCharacters = {
-  "One Piece": ["Monkey D. Luffy", "Roronoa Zoro", "Nami", "Nico Robin", "Trafalgar Law", "Portgas D. Ace"],
-  "Naruto Shippuden": ["Uchiha Sasuke", "Uzumaki Naruto", "Hatake Kakashi", "Hyuga Hinata", "Itachi Uchiha"],
-  "Hatsune Miku": ["Hatsune Miku", "Megurine Luka", "Kagamine Rin", "Kagamine Len"],
-  "Jujutsu Kaisen": ["Gojo Satoru", "Itadori Yuji", "Fushiguro Megumi", "Kugisaki Nobara", "Ryomen Sukuna"],
-  "Demon Slayer": ["Kamado Tanjiro", "Kamado Nezuko", "Agatsuma Zenitsu", "Hashibira Inosuke", "Rengoku Kyojuro"],
-  "Genshin Impact": ["Raiden Shogun", "Zhongli", "Ganyu", "Hu Tao", "Keqing", "Venti"],
-  "Evangelion": ["Ikari Shinji", "Souryu Asuka Langley", "Ayanami Rei", "Mari Illustrious Makinami"],
-  "Fate/Grand Order": ["Saber (Artoria Pendragon)", "Jeanne d'Arc", "Mash Kyrielight", "Gilgamesh"]
+// Cosmetics Specifics
+const activeIngredients = [
+  "Niacinamide 10%, Zinc PCA 1%",
+  "Retinol tinh khiết 0.5%, Ceramide NP",
+  "Salicylic Acid (BHA) 2%, Tea Tree Oil",
+  "Hyaluronic Acid đa tầng, Vitamin B5 (Panthenol)",
+  "Centella Asiatica (Rau má) 95%",
+  "Galactomyces Ferment Filtrate (Pitera độc quyền)",
+  "Vitamin C nguyên chất 15%, Ferulic Acid",
+  "Peptides phức hợp, Squalane tự nhiên",
+  "Lactobionic Acid (PHA), Gluconolactone"
+];
+
+const skinTypes = [
+  "Mọi loại da, kể cả da nhạy cảm",
+  "Da dầu mụn, lỗ chân lông to",
+  "Da khô thiếu nước, bong tróc",
+  "Da hỗn hợp thiên dầu",
+  "Da nhạy cảm dễ kích ứng",
+  "Da lão hóa, nếp nhăn và xỉn màu"
+];
+
+const skinConcerns = {
+  "Dưỡng Sáng Độc Quyền (Brightening)": "Làm dưỡng sáng da, mờ thâm nám, giúp đều màu da, nâng tông nhẹ tự nhiên.",
+  "Cấp Ẩm Phục Hồi Sâu (Hydrating & Barrier)": "Cấp ẩm tầng sâu tức thì, phục hồi hàng rào bảo vệ da bị tổn thương.",
+  "Làm Dịu Da Ngừa Mụn (Acne Soothing)": "Giảm sưng viêm mụn hiệu quả, kiềm dầu thừa, thông thoáng lỗ chân lông.",
+  "Chống Lão Hóa Trẻ Hóa (Advanced Anti-Aging)": "Cải thiện nếp nhăn li ti, chống oxy hóa mạnh mẽ, trẻ hóa bề mặt da.",
+  "Chống Nắng Phổ Rộng (Broad Spectrum)": "Màng lọc UV phổ rộng bảo vệ da toàn diện, kiềm dầu tối đa suốt 12h.",
+  "Làm Sạch Dịu Nhẹ (Gentle Cleansing)": "Tẩy trang và làm sạch sâu bụi mịn bã nhờn nhưng không gây khô căng da."
 };
 
-const figureScales = ["1/7", "1/8", "1/6", "Non-scale", "1/4"];
-const materials = ["PVC, ABS", "PVC, ABS, POM", "Resin, PVC", "ABS, PVC, Die-cast"];
+const volumeOptions = ["50ml", "100ml", "150ml", "200ml", "30g", "75ml", "120ml", "250ml"];
 
-// Pre-define 50 products metadata to sound very authentic
-const productNamesTemplates = [
-  { name: "Scale Figure {character} ({series})", catId: 2, scale: "1/7" },
-  { name: "Nendoroid {character} ({series})", catId: 3, scale: "Non-scale" },
-  { name: "POP UP PARADE {character} ({series})", catId: 4, scale: "Non-scale" },
-  { name: "Model Kit MG {character} ({series})", catId: 5, scale: "1/100" },
-  { name: "Scale Figure {character} - Neon Ver. ({series})", catId: 2, scale: "1/7" },
-  { name: "Acrylic Stand {character} ({series})", catId: 6, scale: "Non-scale" },
-  { name: "Keyring & Pins Set {character} ({series})", catId: 6, scale: "Non-scale" },
-  { name: "Display Case for {character} Series", catId: 7, scale: "Non-scale" }
+// Generate 50 Premium Cosmetics Products
+const products = [];
+const cosmeticProductNames = [
+  { prefix: "Serum Tinh Chất Phục Hồi", catId: 3, lineId: 2 },
+  { prefix: "Kem Dưỡng Ẩm Chuyên Sâu", catId: 4, lineId: 2 },
+  { prefix: "Serum Dưỡng Sáng Mờ Thâm", catId: 3, lineId: 1 },
+  { prefix: "Kem Chống Nắng Vật Lý Phổ Rộng", catId: 5, lineId: 5 },
+  { prefix: "Toner Cân Bằng Dịu Da", catId: 6, lineId: 3 },
+  { prefix: "Sữa Rửa Mặt Sạch Sâu Ngừa Mụn", catId: 7, lineId: 3 },
+  { prefix: "Nước Tẩy Trang Sạch Sâu Dịu Nhẹ", catId: 10, lineId: 6 },
+  { prefix: "Kem Mắt Trẻ Hóa Xóa Nhăn", catId: 4, lineId: 4 },
+  { prefix: "Kem Dưỡng Trắng Hồng Đều Màu", catId: 4, lineId: 1 },
+  { prefix: "Cushion Trang Điểm Căng Bóng", catId: 9, lineId: 1 },
+  { prefix: "Son Thỏi Siêu Lì Mịn Môi", catId: 8, lineId: 1 }
 ];
 
 for (let i = 1; i <= 50; i++) {
-  const chosenSeries = randItem(series);
-  const character = randItem(animeCharacters[chosenSeries.name]);
   const brand = randItem(brands);
+  const line = randItem(series);
   
-  // Pick template
-  let template = randItem(productNamesTemplates);
-  if (i <= 15) template = productNamesTemplates[0]; // More scale figures
-  else if (i <= 30) template = productNamesTemplates[1]; // More Nendoroids
-  else if (i <= 40) template = productNamesTemplates[2]; // POP UP PARADE
+  // Pick a base template
+  let template = randItem(cosmeticProductNames);
+  if (i <= 10) template = cosmeticProductNames[0]; // More serums
+  else if (i <= 20) template = cosmeticProductNames[1]; // More creams
+  else if (i <= 30) template = cosmeticProductNames[3]; // More sunscreens
   
-  const name = template.name.replace("{character}", character).replace("{series}", chosenSeries.name);
+  const name = `${template.prefix} ${brand.name} - ${line.name.split(' (')[0]}`;
   const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') + `-${i}`;
-  const sku = `${brand.slug.substring(0, 3).toUpperCase()}-${chosenSeries.slug.substring(0, 3).toUpperCase()}-${randRange(1000, 9999)}`;
+  const sku = `${brand.slug.substring(0, 3).toUpperCase()}-${line.slug.substring(0, 3).toUpperCase()}-${randRange(100, 999)}`;
   
-  const isPreorder = i % 2 === 0; // 50% preorder, 50% available/sale
+  const isPreorder = i % 2 === 0;
   const isSale = !isPreorder && (i % 5 === 0);
-  const price = randRange(15, 120) * 50000; // 750k to 6M VND
+  const price = randRange(8, 48) * 50000; // 400k to 2.4M VND
   
   let status = 'AVAILABLE';
   if (isPreorder) status = 'PREORDER';
@@ -176,14 +209,13 @@ for (let i = 1; i <= 50; i++) {
   let campaign = null;
   if (isPreorder) {
     const depositPct = randItem([30, 40, 50]);
-    const limitQty = randItem([50, 100, 150, 200]);
-    const orderedQty = randRange(5, limitQty - 1);
+    const limitQty = randItem([100, 150, 200, 300]);
+    const orderedQty = randRange(10, limitQty - 5);
     const depositAmt = (price * depositPct) / 100;
     
-    // Dates
-    const openDate = new Date(Date.now() - randRange(1, 20) * 24 * 60 * 60 * 1000).toISOString();
-    const closeDate = new Date(Date.now() + randRange(5, 30) * 24 * 60 * 60 * 1000).toISOString();
-    const releaseOptions = ["Tháng 11/2026", "Tháng 12/2026", "Quý I/2027", "Quý II/2027"];
+    const openDate = new Date(Date.now() - randRange(2, 18) * 24 * 60 * 60 * 1000).toISOString();
+    const closeDate = new Date(Date.now() + randRange(5, 25) * 24 * 60 * 60 * 1000).toISOString();
+    const releaseOptions = ["Tháng 10/2026", "Tháng 11/2026", "Quý IV/2026", "Tháng 12/2026"];
     
     campaign = {
       id: productIdCounter,
@@ -201,17 +233,17 @@ for (let i = 1; i <= 50; i++) {
           id: productIdCounter * 2,
           campaignId: productIdCounter,
           stage: 'OPENED',
-          notes: 'Mở nhận pre-order chính hãng từ nhà sản xuất. Số lượng giới hạn.',
+          notes: 'Mở đợt gom đặt hàng preorder xách tay chính hãng giá ưu đãi nhất.',
           updatedAt: openDate
         }
       ]
     };
   }
 
-  // Gallery images (thumbnail + 2 extra images)
-  const thumbUrl = figureImages[i % figureImages.length];
-  const extraImg1 = figureImages[(i + 1) % figureImages.length];
-  const extraImg2 = figureImages[(i + 2) % figureImages.length];
+  // Pick images
+  const thumbUrl = cosmeticsImages[i % cosmeticsImages.length];
+  const extraImg1 = cosmeticsImages[(i + 1) % cosmeticsImages.length];
+  const extraImg2 = cosmeticsImages[(i + 2) % cosmeticsImages.length];
 
   const productImages = [
     { id: i * 3, productId: i, url: thumbUrl, isThumbnail: true },
@@ -225,208 +257,208 @@ for (let i = 1; i <= 50; i++) {
     slug: slug,
     sku: sku,
     barcode: `893${randRange(1000000000, 9999999999)}`,
-    category: categories.find(c => c.id === (isSale ? 8 : template.catId)) || categories[0],
+    category: categories.find(c => c.id === (isSale ? 13 : template.catId)) || categories[0],
     brand: brand,
-    series: chosenSeries,
+    series: line,
     price: price,
     status: status,
-    quantity: isPreorder ? 0 : randRange(1, 20),
-    description: `Mô tả chi tiết sản phẩm ${name} chính hãng từ hãng ${brand.name}. Sản phẩm mô phỏng nhân vật ${character} thuộc series nổi tiếng ${chosenSeries.name}. Thiết kế tinh xảo, chất lượng nước sơn cao cấp, sắc nét từng chi tiết nhỏ. Phù hợp trưng bày tủ kính, bàn làm việc hoặc làm bộ sưu tập quà tặng cao cấp.`,
+    quantity: isPreorder ? 0 : randRange(5, 45),
+    description: `Sản phẩm ${name} là dòng mỹ phẩm chính hãng chất lượng cao. Với thành phần hoạt tính chuyên sâu, sản phẩm mang đến hiệu quả rõ rệt sau 4 tuần sử dụng. ${skinConcerns[line.name]} Công thức dịu nhẹ đã được kiểm nghiệm da liễu, không gây bí tắc lỗ chân lông hay kích ứng da. Hoàn hảo để bổ sung vào routine chăm sóc da hàng ngày của bạn.`,
     images: productImages,
     campaign: campaign,
-    character: character,
+    character: skinConcerns[line.name].split(',')[0], // Mapped to primary target benefit
     manufacturer: brand.name,
     releaseDateText: isPreorder ? campaign.releaseDate : "Có sẵn",
-    scale: template.scale,
-    material: randItem(materials),
-    height: `${randRange(10, 45)} cm`,
-    seoTitle: `${name} chính hãng giá tốt | PreNippon Store`,
-    seoDescription: `Mua sản phẩm ${name} chính hãng ${brand.name} giá hấp dẫn tại PreNippon. Đặt cọc trước nhận giá rẻ nhất. Ship COD toàn quốc.`,
-    createdAt: new Date(Date.now() - randRange(30, 200) * 24 * 60 * 60 * 1000).toISOString(),
+    scale: randItem(volumeOptions), // Mapped to Volume
+    material: randItem(activeIngredients), // Mapped to Active Ingredients
+    height: randItem(skinTypes), // Mapped to Suitable Skin Types
+    seoTitle: `${name} chính hãng nhập khẩu | PreNippon`,
+    seoDescription: `Đặt mua ${name} chính hãng cam kết đền gấp 10 lần nếu phát hiện hàng nhái. Pre-order giữ slot giá hời nhất thị trường.`,
+    createdAt: new Date(Date.now() - randRange(20, 150) * 24 * 60 * 60 * 1000).toISOString(),
     updatedAt: new Date().toISOString()
   });
 
   productIdCounter++;
 }
 
-// Generate 20 Reviews
+// Generate 20 Cosmetic Reviews
 const reviews = [];
-const comments = [
-  "Sản phẩm quá đẹp, nước sơn mịn và sắc sảo đúng chất chính hãng!",
-  "Hàng box đẹp không móp méo, shop đóng gói siêu kỹ 3 lớp xốp bong bóng.",
-  "Figure sắc nét từng chi tiết, pose dáng ngầu lòi luôn nha.",
-  "Đã nhận hàng sau khi hoàn tất thanh toán cọc. Thời gian hàng về đúng hẹn.",
-  "Good Smile Company chưa bao giờ làm mình thất vọng, chi tiết khuôn mặt rất có hồn.",
-  "Nendoroid cute lạc lối luôn mng ơi, khớp gắn mượt mà dễ thương.",
-  "Scale 1/7 to vật vã, trưng bày trung tâm tủ kính hết bài.",
-  "Lần đầu pre-order ở shop, tư vấn nhiệt tình, hỗ trợ cập nhật timeline rất rõ.",
-  "Hàng cực xịn xò, giá preorder rẻ hơn kha khá so với mua sẵn.",
-  "Ủng hộ shop nhiều lần rồi, cực kỳ uy tín!"
+const reviewerNames = [
+  "Thanh Hằng", "Khánh Linh", "Bích Phương", "Hương Giang", "Quỳnh Anh",
+  "Minh Hằng", "Hà Tăng", "Ngọc Trinh", "Tóc Tiên", "Midu",
+  "Anh Tuấn", "Quang Vinh", "Đông Nhi", "Ông Cao Thắng", "Chi Pu"
+];
+const reviewComments = [
+  "Sản phẩm dùng siêu thích, da mình giảm sưng mụn rõ rệt sau 1 tuần. Gom preorder giá hời quá trời luôn!",
+  "Đã nhận hàng chuẩn auth, shop đóng gói cực kỳ cẩn thận có bọc xốp bóng khí dày dặn không móp méo hộp.",
+  "Tinh chất thấm cực nhanh, không gây bết rít tí nào. Trộm vía da căng bóng khỏe khoắn hơn hẳn.",
+  "Serum chân ái của đời mình! Cấp ẩm siêu đỉnh, da mùa đông không hề bị bong tróc khô sần sùi nữa.",
+  "Mới đầu hơi sợ vì hàng preorder, nhưng hàng về đúng lịch trình, check mã vạch chuẩn đét nha mọi người.",
+  "Chất son siêu lì nhưng mướt môi cực, ăn uống không bị trôi nhiều. Màu lên chuẩn tone xinh xắn lắm.",
+  "Cushion đánh lên mỏng nhẹ tự nhiên như da thật, che phủ được 80% khuyết điểm mụn thâm. Đáng mua!",
+  "Kem chống nắng kiềm dầu siêu đỉnh, không bị vệt trắng hay bết dính. Sẽ tiếp tục đặt thêm đợt sau."
 ];
 
 for (let i = 1; i <= 20; i++) {
-  const prod = randItem(products);
-  const user = randItem(users.filter(u => u.role === 'ROLE_CUSTOMER'));
-  
   reviews.push({
     id: reviewIdCounter++,
-    userId: user.id,
-    userName: user.fullName,
-    userAvatar: `https://api.dicebear.com/7.x/adventurer/svg?seed=${user.email}`,
-    productId: prod.id,
-    rating: randItem([4, 5, 5, 5, 3]), // skewed high
-    comment: randItem(comments),
-    imageUrl: i % 4 === 0 ? randItem(figureImages) : undefined,
-    status: 'APPROVED',
+    productId: randRange(1, 50),
+    reviewerName: randItem(reviewerNames),
+    rating: randItem([5, 5, 5, 4, 4]),
+    comment: randItem(reviewComments),
     createdAt: new Date(Date.now() - randRange(1, 30) * 24 * 60 * 60 * 1000).toISOString()
   });
 }
 
-// Attach Reviews to Products list
-products.forEach(p => {
-  p.reviews = reviews.filter(r => r.productId === p.id);
-});
-
-// Generate 10 Banners
+// Generate 10 Cosmetics Preorder Banners
 const banners = [
   {
-    id: 1,
-    title: "Morachi Style Premium Figure Store",
-    imageUrl: "https://images.unsplash.com/photo-1563089145-599997674d42?w=1920&q=80",
-    linkUrl: "/products",
+    id: bannerIdCounter++,
+    title: "CHIẾN DỊCH PRE-ORDER MỸ PHẨM CHÍNH HÃNG",
+    imageUrl: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1600&q=80",
+    linkUrl: "/products?status=PREORDER",
+    type: "HERO",
     orderIndex: 0,
     isActive: true,
-    type: "HERO",
     badgeText: "PRE-ORDER CAMPAIGN",
-    buttonText: "Khám Phá Ngay"
+    buttonText: "ĐẶT CỌC NGAY"
   },
   {
-    id: 2,
-    title: "Nendoroid Wonderland - Đặt trước nhận ưu đãi 10%",
-    imageUrl: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1920&q=80",
-    linkUrl: "/products?category=nendoroid",
+    id: bannerIdCounter++,
+    title: "SK-II PITERA TREATMENT ESSENCE - DƯỠNG SÁNG TRẺ HÓA",
+    imageUrl: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1600&q=80",
+    linkUrl: "/products/serum-tinh-chat-phuc-hoi-sk-ii-duong-sang-doc-quyen-brightening-1",
+    type: "HERO",
     orderIndex: 1,
     isActive: true,
-    type: "HERO",
-    badgeText: "NEW ARRIVALS",
-    buttonText: "Xem Danh Sách"
+    badgeText: "HOT DEAL",
+    buttonText: "XEM CHI TIẾT"
   },
   {
-    id: 3,
-    title: "Gundam & Model Kit - Lắp ráp thỏa đam mê",
-    imageUrl: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1920&q=80",
-    linkUrl: "/products?category=model-kit",
+    id: bannerIdCounter++,
+    title: "KEM CHỐNG NẮNG LA ROCHE-POSAY ANTHELIOS KIỀM DẦU 12H",
+    imageUrl: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=1600&q=80",
+    linkUrl: "/products/kem-chong-nang-vat-ly-pho-rong-la-roche-posay-chong-nang-pho-rong-broad-spectrum-4",
+    type: "HERO",
     orderIndex: 2,
     isActive: true,
-    type: "HERO",
-    badgeText: "BANDAI SPIRITS",
-    buttonText: "Mua Ngay"
+    badgeText: "BEST SELLER PREORDER",
+    buttonText: "ĐẶT CỌC 30%"
+  },
+  {
+    id: bannerIdCounter++,
+    title: "FLASH SALE PRE-ORDER: MUA KEM DƯỠNG TẶNG TONER",
+    imageUrl: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600&q=80",
+    linkUrl: "/products?category=sale",
+    type: "PROMO",
+    orderIndex: 3,
+    isActive: true
+  },
+  {
+    id: bannerIdCounter++,
+    title: "Đợt Gom Hàng SK-II & Shiseido Lớn Nhất Năm Kết Thúc Sau:",
+    imageUrl: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=1600&q=80",
+    linkUrl: "/products?status=PREORDER",
+    type: "COUNTDOWN",
+    orderIndex: 4,
+    isActive: true,
+    countdownTarget: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000).toISOString() // 15 days out
   }
 ];
 
-// Add 7 more minor promo banners
-for (let i = 4; i <= 10; i++) {
-  banners.push({
-    id: i,
-    title: `Chương trình Khuyến mãi Banner phụ ${i}`,
-    imageUrl: figureImages[i % figureImages.length],
-    linkUrl: "/products?category=sale",
-    orderIndex: i,
-    isActive: i < 8,
-    type: "PROMO"
-  });
-}
-
-// Generate 20 Blogs
-const blogTitles = [
-  "Top 10 Figure Đáng Mong Chờ Nhất Cuối Năm 2026",
-  "Hướng Dẫn Phân Biệt Figure Real Và Fake Cho Người Mới",
-  "Nendoroid Là Gì? Tại Sao Chúng Lại Thu Hút Giới Trẻ Đến Vậy?",
-  "Review Chi Tiết Scale Figure Hatsune Miku 1/7 Từ Hãng Alter",
-  "Kinh Nghiệm Bảo Quản Figure Anime Không Bị Phai Màu Dưới Ánh Nắng",
-  "Lịch Sử Thành Lập Good Smile Company - Đế Chế Nendoroid",
-  "POP UP PARADE: Dòng Figure Chất Lượng Cao Giá Bình Dân",
-  "Sự Khác Biệt Giữa Scale Figure Và Prize Figure Có Thể Bạn Chưa Biết",
-  "Gundam Model Kit: Lịch Trình Phát Hành Gunpla Mới Của Bandai",
-  "Cẩm Nang Đặt Pre-order Hàng Nhật Bản An Toàn Và Uy Tín",
-  "Hé Lộ Mẫu Thiết Kế Mới Nhất Series Jujutsu Kaisen Của Hãng Kotobukiya",
-  "Trưng Bày Figure Đẹp: Thiết Kế Đèn Led Tủ Kính Phù Hợp",
-  "One Piece Gear 5 Figure: Những Phiên Bản Đáng Giá Nhất",
-  "Tìm Hiểu Về Chất Liệu PVC Và ABS Sử Dụng Trong Chế Tác Đồ Chơi",
-  "Anime Figure Exhibition 2026 Tokyo: Tổng Hợp Các Siêu Phẩm",
-  "Review Model Kit MG Evangelion Unit-01 Thần Thánh",
-  "Top Phụ Kiện Decor Bàn Làm Việc Cực Chất Cho Otaku",
-  "Xu Hướng Sưu Tầm Figure Genshin Impact Của Giới Trẻ Việt Nam",
-  "Demon Slayer Hashira Figures: Bộ Sưu Tập 9 Trụ Cột Đầy Đủ",
-  "Làm Sao Để Sửa Khớp Nendoroid Bị Lỏng? Mẹo Đơn Giản Nhất"
+// Generate 10 Cosmetics Blogs
+const blogs = [
+  {
+    id: blogIdCounter++,
+    title: "5 Bước Skincare Khoa Học Cho Làn Da Dầu Mụn Vào Mùa Hè",
+    slug: "5-buoc-skincare-khoa-hoc-cho-lan-da-dau-mun",
+    summary: "Hướng dẫn xây dựng routine làm sạch sâu, kiềm dầu thừa hiệu quả từ các hoạt chất BHA, Niacinamide chuyên sâu.",
+    content: `<p>Mùa hè là ác mộng của những cô nàng sở hữu làn da dầu mụn. Nhiệt độ tăng cao kích thích tuyến bã nhờn hoạt động mạnh mẽ, dễ gây bí tắc lỗ chân lông. Dưới đây là chu trình dưỡng da chuẩn da liễu:</p>
+              <h3>Bước 1: Làm sạch kép (Double Cleansing)</h3>
+              <p>Dù không trang điểm, hãy dùng nước tẩy trang dịu nhẹ Bioderma để lấy đi dầu thừa trước khi dùng sữa rửa mặt CeraVe.</p>
+              <h3>Bước 2: Nước cân bằng (Toner)</h3>
+              <p>Sử dụng Toner Anua Heartleaf 77% để làm dịu các nốt mụn sưng đỏ lập tức.</p>
+              <h3>Bước 3: Serum đặc trị mụn</h3>
+              <p>Bổ sung Serum COSRX Salicylic Acid 2% giúp gom cồi mụn nhanh chóng.</p>`,
+    thumbnail: "https://images.unsplash.com/photo-1617897903246-719242758050?w=800&q=80",
+    tags: ["Skincare", "Da mụn", "Routine"],
+    seoTitle: "Routine skincare cho da dầu mụn mùa hè | PreNippon",
+    seoDescription: "Xây dựng chu trình dưỡng da ngừa mụn, kiềm dầu hiệu quả từ các chuyên gia da liễu hàng đầu.",
+    authorId: 27,
+    authorName: "Dược Sĩ Minh Trang",
+    createdAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString()
+  },
+  {
+    id: blogIdCounter++,
+    title: "So Sánh Nước Thần SK-II Facial Treatment Essence vs Các Bản Dupe",
+    slug: "so-sanh-nuoc-than-sk-ii-facial-treatment-essence",
+    summary: "Đánh giá chi tiết thành phần Pitera độc quyền và hiệu quả chống lão hóa thực sự trên làn da châu Á.",
+    content: `<p>Nước thần SK-II từ lâu đã trở thành huyền thoại dưỡng da châu Á. Tuy nhiên, mức giá đắt đỏ khiến nhiều chị em phân vân. Liệu chất men Pitera độc quyền có thực sự mang lại làn da pha lê?</p>
+              <p>Pitera chứa hơn 50 vi chất dinh dưỡng bao gồm vitamin, khoáng chất, axit amin giúp điều hòa chu kỳ tái tạo da. So với các dòng lên men thông thường, nước thần SK-II thẩm thấu nhanh hơn, tăng khả năng ngậm nước và cải thiện độ đàn hồi rõ rệt sau 14 ngày sử dụng.</p>`,
+    thumbnail: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+    tags: ["Review", "SK-II", "Chống lão hóa"],
+    seoTitle: "Đánh giá nước thần SK-II chính hãng | PreNippon",
+    seoDescription: "Nước thần SK-II có thực sự tốt không? So sánh chi tiết hiệu quả trẻ hóa da thực tế.",
+    authorId: 27,
+    authorName: "Beauty Editor Lan Chi",
+    createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString()
+  },
+  {
+    id: blogIdCounter++,
+    title: "Top 5 Kem Chống Nắng Phổ Rộng Tốt Nhất Cho Da Treatment",
+    slug: "top-5-kem-chong-nang-pho-rong-cho-da-treatment",
+    summary: "Bảo vệ tối đa làn da đang sử dụng Retinol, AHA/BHA với màng lọc chống nắng tiên tiến từ Shiseido, La Roche-Posay.",
+    content: `<p>Khi da đang treatment bằng Retinol hoặc Acid, lớp sừng sẽ mỏng đi và cực kỳ nhạy cảm với tia cực tím. Việc sử dụng kem chống nắng phổ rộng là bắt buộc.</p>
+              <p>La Roche-Posay Anthelios UVMune 400 là ứng cử viên số 1 nhờ màng lọc độc quyền Mexoryl 400 bảo vệ da khỏi tia UVA dài. Shiseido The Perfect Protector với công nghệ WetForce kháng nước tối đa thích hợp cho hoạt động ngoài trời.</p>`,
+    thumbnail: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800&q=80",
+    tags: ["Chống nắng", "Treatment", "Shiseido"],
+    seoTitle: "Kem chống nắng phổ rộng cho da treatment tốt nhất | PreNippon",
+    seoDescription: "Top kem chống nắng màng lọc tiên tiến bảo vệ da nhạy cảm đang treatment hiệu quả.",
+    authorId: 27,
+    authorName: "Bác Sĩ Da Liễu Khánh Nam",
+    createdAt: new Date(Date.now() - 12 * 24 * 60 * 60 * 1000).toISOString()
+  }
 ];
 
-const blogs = blogTitles.map((title, idx) => {
-  const slug = title.toLowerCase().replace(/[^a-z0-9\s]+/g, '').replace(/\s+/g, '-');
-  return {
-    id: idx + 1,
-    title: title,
-    slug: slug,
-    summary: `Tóm tắt nội dung bài viết: ${title}. Chia sẻ những thông tin hữu ích về sở thích sưu tầm mô hình chính hãng và văn hóa Anime/Manga.`,
-    content: `<p>Đây là bài viết đầy đủ cho <strong>${title}</strong>. Nội dung phân tích chi tiết xu hướng, chất liệu chế tạo, giá cả thị trường và tư vấn đặt hàng tốt nhất tại Việt Nam.</p><p>Sưu tầm figure không chỉ là một thú vui cá nhân mà còn là việc lưu giữ những kỷ niệm đẹp về các nhân vật Anime mà chúng ta hâm mộ. Tại cửa hàng PreNippon, chúng tôi cam kết mang lại trải nghiệm pre-order hàng chính hãng 100% Nhật Bản cực kỳ chuyên nghiệp và tận tâm.</p>`,
-    thumbnail: figureImages[idx % figureImages.length],
-    tags: ["Figure", "Anime", "Review", "Sưu Tầm"],
-    seoTitle: `${title} | Góc Chia Sẻ PreNippon`,
-    seoDescription: `Đọc bài viết ${title} trên blog PreNippon Store. Góc kiến thức và review figure anime chính hãng hàng đầu Việt Nam.`,
-    authorId: 27, // Admin
-    authorName: "Admin PreNippon",
-    createdAt: new Date(Date.now() - idx * 3 * 24 * 60 * 60 * 1000).toISOString(),
-    updatedAt: new Date().toISOString()
-  };
-});
-
-// Generate 100 Orders
+// Generate 100 Realistic Orders for Cosmetics Items
 const orders = [];
-const orderStatuses = [
-  'PENDING', 'DEPOSIT_PAID', 'ORDERED', 'SHIPPING', 
-  'ARRIVED', 'READY', 'COMPLETED', 'CANCELLED', 'REFUNDED'
-];
-
 for (let i = 1; i <= 100; i++) {
   const customer = randItem(users.filter(u => u.role === 'ROLE_CUSTOMER'));
-  const orderCode = `PRE-${2026}-${String(i).padStart(4, '0')}`;
-  
-  // Decide how many items (1 to 3)
+  const orderCode = `NIP-${100000 + i}`;
+
+  // Generate 1-3 items
   const itemsCount = randRange(1, 3);
   const items = [];
   let totalAmount = 0;
   let requiredDeposit = 0;
-  
-  const chosenProducts = [];
-  while (chosenProducts.length < itemsCount) {
-    const prod = randItem(products);
-    if (!chosenProducts.some(p => p.id === prod.id)) {
-      chosenProducts.push(prod);
-    }
-  }
 
-  chosenProducts.forEach((p, idx) => {
-    const qty = randRange(1, 2);
-    const price = p.price;
-    const isPre = p.status === 'PREORDER';
-    const depositAmt = isPre ? (p.campaign ? p.campaign.depositAmount * qty : price * 0.3 * qty) : 0;
-    
+  for (let j = 0; j < itemsCount; j++) {
+    const prod = randItem(products);
+    const quantity = randRange(1, 2);
+    const itemPrice = prod.price;
+    const isPre = prod.status === 'PREORDER' && prod.campaign;
+
+    let depositAmount = 0;
+    if (isPre) {
+      depositAmount = prod.campaign.depositAmount;
+      requiredDeposit += depositAmount * quantity;
+    }
+
     items.push({
-      id: i * 10 + idx,
+      id: i * 10 + j,
       orderId: i,
-      productId: p.id,
-      quantity: qty,
-      price: price,
-      depositAmount: depositAmt,
+      productId: prod.id,
+      quantity: quantity,
+      price: itemPrice,
+      depositAmount: depositAmount,
       type: isPre ? 'PREORDER' : 'AVAILABLE'
     });
 
-    totalAmount += price * qty;
-    requiredDeposit += depositAmt;
-  });
+    totalAmount += itemPrice * quantity;
+  }
 
-  // Calculate status weighting
-  let status = 'COMPLETED';
+  // Determine Status based on index
+  let status = 'PENDING';
   if (i <= 10) status = 'PENDING';
   else if (i <= 30) status = 'DEPOSIT_PAID';
   else if (i <= 40) status = 'ORDERED';
@@ -459,7 +491,6 @@ for (let i = 1; i <= 100; i++) {
   const method = randItem(['VNPAY', 'MOMO', 'ZALOPAY', 'COD']);
 
   if (status !== 'PENDING' && status !== 'CANCELLED') {
-    // Deposit payment paid
     if (requiredDeposit > 0) {
       depositPaid = requiredDeposit;
       addPayment(requiredDeposit, method === 'COD' ? 'VNPAY' : method, 'DEPOSIT', 'SUCCESS', 15);
@@ -495,7 +526,7 @@ for (let i = 1; i <= 100; i++) {
     recipientName: customer.fullName,
     phoneNumber: customer.phone || addr.phoneNumber,
     shippingAddress: `${addr.street}, Phường ${addr.ward}, Quận ${addr.district}, ${addr.city}`,
-    notes: i % 8 === 0 ? "Giao hàng giờ hành chính. Alo trước 15p." : undefined,
+    notes: i % 8 === 0 ? "Giao hàng giờ hành chính. Gọi trước khi giao." : undefined,
     voucherId: undefined,
     voucherCode: undefined,
     rewardPointsUsed: 0,
@@ -507,13 +538,16 @@ for (let i = 1; i <= 100; i++) {
   });
 }
 
-// Create Directory if missing
+// 4. Output Directories
 const mockDir = path.join(__dirname);
 if (!fs.existsSync(mockDir)){
   fs.mkdirSync(mockDir, { recursive: true });
 }
 
-// Write JSON files
+// 5. Write all static seed databases (Ensure all 9 tables exist)
+fs.writeFileSync(path.join(mockDir, 'categories.json'), JSON.stringify(categories, null, 2));
+fs.writeFileSync(path.join(mockDir, 'brands.json'), JSON.stringify(brands, null, 2));
+fs.writeFileSync(path.join(mockDir, 'series.json'), JSON.stringify(series, null, 2));
 fs.writeFileSync(path.join(mockDir, 'users.json'), JSON.stringify(users, null, 2));
 fs.writeFileSync(path.join(mockDir, 'products.json'), JSON.stringify(products, null, 2));
 fs.writeFileSync(path.join(mockDir, 'reviews.json'), JSON.stringify(reviews, null, 2));
@@ -521,4 +555,4 @@ fs.writeFileSync(path.join(mockDir, 'banners.json'), JSON.stringify(banners, nul
 fs.writeFileSync(path.join(mockDir, 'blogs.json'), JSON.stringify(blogs, null, 2));
 fs.writeFileSync(path.join(mockDir, 'orders.json'), JSON.stringify(orders, null, 2));
 
-console.log("Mock data successfully generated!");
+console.log("Premium Cosmetics Mock database successfully generated!");

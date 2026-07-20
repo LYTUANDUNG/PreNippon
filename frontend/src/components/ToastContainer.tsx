@@ -17,12 +17,12 @@ export default function ToastContainer() {
             initial={{ opacity: 0, y: 50, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9, transition: { duration: 0.2 } }}
-            className={`pointer-events-auto flex items-center justify-between gap-3 p-4 rounded-lg border shadow-lg ${
+                        className={`pointer-events-auto flex items-center justify-between gap-3 p-4 rounded-custom border shadow-premium ${
               toast.type === 'success'
-                ? 'bg-zinc-950 border-green-500/30 text-green-400'
+                ? 'bg-background-card border-green-500/30 text-green-500'
                 : toast.type === 'error'
-                ? 'bg-zinc-950 border-accent/30 text-accent'
-                : 'bg-zinc-950 border-blue-500/30 text-blue-400'
+                ? 'bg-background-card border-accent/30 text-accent'
+                : 'bg-background-card border-blue-500/30 text-blue-500'
             }`}
           >
             <div className="flex items-center gap-2">

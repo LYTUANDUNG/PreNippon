@@ -6,7 +6,7 @@ import { Mail, Phone, ShieldCheck, Truck, RefreshCw } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-950 border-t border-border text-foreground-muted text-xs pt-12 pb-6 transition-colors">
+    <footer className="bg-background-card border-t border-border text-foreground-muted text-xs pt-12 pb-6 transition-colors">
       <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
         
         {/* Col 1: Brand details */}
@@ -17,7 +17,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="leading-relaxed">
-            Hệ thống chuyên đặt hàng (Pre-order) figure, mô hình, anime merchandise chính hãng từ Nhật Bản. Đảm bảo chất lượng, bảo hiểm 100% rủi ro móp méo, trễ hẹn.
+            Hệ thống đặt hàng trước (Pre-order) mỹ phẩm cao cấp nhập khẩu chính hãng từ Nhật Bản, Hàn Quốc, Pháp & Mỹ. Cam kết hàng chuẩn Auth 100%, bảo hiểm vận chuyển hàng hóa, đền bù x10 nếu phát hiện hàng nhái.
           </p>
           <div className="space-y-2 pt-2">
             <p className="flex items-center gap-2 text-foreground">
@@ -40,19 +40,19 @@ export default function Footer() {
             <li>
               <Link href={ROUTES.FAQ} className="hover:text-accent transition-colors flex items-center gap-1.5">
                 <ShieldCheck size={12} />
-                Chính sách đặt cọc 30%
+                Chính sách cọc 30% - 50%
               </Link>
             </li>
             <li>
               <Link href={ROUTES.FAQ} className="hover:text-accent transition-colors flex items-center gap-1.5">
                 <Truck size={12} />
-                Vận chuyển & Hải quan Nhật-Việt
+                Vận chuyển quốc tế nhập khẩu
               </Link>
             </li>
             <li>
               <Link href={ROUTES.FAQ} className="hover:text-accent transition-colors flex items-center gap-1.5">
                 <RefreshCw size={12} />
-                Chính sách đổi trả & Hoàn tiền
+                Đổi trả do lỗi nhà sản xuất
               </Link>
             </li>
           </ul>
@@ -66,17 +66,17 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link href={ROUTES.ABOUT} className="hover:text-accent transition-colors">
-                Lịch sử & Cam kết PreNippon
+                Cam kết Auth & Nguồn gốc xuất xứ
               </Link>
             </li>
             <li>
               <Link href={ROUTES.BLOGS} className="hover:text-accent transition-colors">
-                Góc Otaku - Tin tức Figure
+                Cẩm nang làm đẹp & Tin tức Mỹ phẩm
               </Link>
             </li>
             <li>
               <Link href={ROUTES.CONTACT} className="hover:text-accent transition-colors">
-                Liên hệ & Địa chỉ cửa hàng
+                Liên hệ & Hệ thống địa chỉ
               </Link>
             </li>
           </ul>
@@ -86,7 +86,7 @@ export default function Footer() {
       {/* Social links & Copyright */}
       <div className="max-w-7xl mx-auto px-4 md:px-6 pt-6 border-t border-border/40 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-[10px] text-foreground-muted">
-          &copy; {new Date().getFullYear()} PreNippon Figure Store. Inspired by Morachi layout. Built for demo presentation.
+          &copy; {new Date().getFullYear()} PreNippon Premium Cosmetics. Inspired by Morachi layout. Built for demo presentation.
         </p>
         <div className="flex gap-4">
           <a href="https://facebook.com" target="_blank" rel="noreferrer" className="text-foreground-muted hover:text-accent transition-colors" title="Facebook">

@@ -1,98 +1,54 @@
 [
   {
     "id": 1,
-    "title": "Morachi Style Premium Figure Store",
-    "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?w=1920&q=80",
-    "linkUrl": "/products",
+    "title": "CHIẾN DỊCH PRE-ORDER MỸ PHẨM CHÍNH HÃNG",
+    "imageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1600&q=80",
+    "linkUrl": "/products?status=PREORDER",
+    "type": "HERO",
     "orderIndex": 0,
     "isActive": true,
-    "type": "HERO",
     "badgeText": "PRE-ORDER CAMPAIGN",
-    "buttonText": "Khám Phá Ngay"
+    "buttonText": "ĐẶT CỌC NGAY"
   },
   {
     "id": 2,
-    "title": "Nendoroid Wonderland - Đặt trước nhận ưu đãi 10%",
-    "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1920&q=80",
-    "linkUrl": "/products?category=nendoroid",
+    "title": "SK-II PITERA TREATMENT ESSENCE - DƯỠNG SÁNG TRẺ HÓA",
+    "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1600&q=80",
+    "linkUrl": "/products/serum-tinh-chat-phuc-hoi-sk-ii-duong-sang-doc-quyen-brightening-1",
+    "type": "HERO",
     "orderIndex": 1,
     "isActive": true,
-    "type": "HERO",
-    "badgeText": "NEW ARRIVALS",
-    "buttonText": "Xem Danh Sách"
+    "badgeText": "HOT DEAL",
+    "buttonText": "XEM CHI TIẾT"
   },
   {
     "id": 3,
-    "title": "Gundam & Model Kit - Lắp ráp thỏa đam mê",
-    "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1920&q=80",
-    "linkUrl": "/products?category=model-kit",
+    "title": "KEM CHỐNG NẮNG LA ROCHE-POSAY ANTHELIOS KIỀM DẦU 12H",
+    "imageUrl": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=1600&q=80",
+    "linkUrl": "/products/kem-chong-nang-vat-ly-pho-rong-la-roche-posay-chong-nang-pho-rong-broad-spectrum-4",
+    "type": "HERO",
     "orderIndex": 2,
     "isActive": true,
-    "type": "HERO",
-    "badgeText": "BANDAI SPIRITS",
-    "buttonText": "Mua Ngay"
+    "badgeText": "BEST SELLER PREORDER",
+    "buttonText": "ĐẶT CỌC 30%"
   },
   {
     "id": 4,
-    "title": "Chương trình Khuyến mãi Banner phụ 4",
-    "imageUrl": "https://images.unsplash.com/photo-1560942485-b2a11cc13456?w=800&auto=format&fit=crop&q=80",
+    "title": "FLASH SALE PRE-ORDER: MUA KEM DƯỠNG TẶNG TONER",
+    "imageUrl": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600&q=80",
     "linkUrl": "/products?category=sale",
-    "orderIndex": 4,
-    "isActive": true,
-    "type": "PROMO"
+    "type": "PROMO",
+    "orderIndex": 3,
+    "isActive": true
   },
   {
     "id": 5,
-    "title": "Chương trình Khuyến mãi Banner phụ 5",
-    "imageUrl": "https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 5,
+    "title": "Đợt Gom Hàng SK-II & Shiseido Lớn Nhất Năm Kết Thúc Sau:",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=1600&q=80",
+    "linkUrl": "/products?status=PREORDER",
+    "type": "COUNTDOWN",
+    "orderIndex": 4,
     "isActive": true,
-    "type": "PROMO"
-  },
-  {
-    "id": 6,
-    "title": "Chương trình Khuyến mãi Banner phụ 6",
-    "imageUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 6,
-    "isActive": true,
-    "type": "PROMO"
-  },
-  {
-    "id": 7,
-    "title": "Chương trình Khuyến mãi Banner phụ 7",
-    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 7,
-    "isActive": true,
-    "type": "PROMO"
-  },
-  {
-    "id": 8,
-    "title": "Chương trình Khuyến mãi Banner phụ 8",
-    "imageUrl": "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 8,
-    "isActive": false,
-    "type": "PROMO"
-  },
-  {
-    "id": 9,
-    "title": "Chương trình Khuyến mãi Banner phụ 9",
-    "imageUrl": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 9,
-    "isActive": false,
-    "type": "PROMO"
-  },
-  {
-    "id": 10,
-    "title": "Chương trình Khuyến mãi Banner phụ 10",
-    "imageUrl": "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&auto=format&fit=crop&q=80",
-    "linkUrl": "/products?category=sale",
-    "orderIndex": 10,
-    "isActive": false,
-    "type": "PROMO"
+    "countdownTarget": "2026-08-04T05:30:37.379Z"
   }
 ]

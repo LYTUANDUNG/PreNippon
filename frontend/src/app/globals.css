@@ -5,6 +5,9 @@
   --background: #09090b;
   --background-card: #121215;
   --background-card-hover: #1c1c22;
+  --background-skeleton: #1c1c22;
+  --background-modal: #121215;
+  --border-modal: #27272a;
   --foreground: #f4f4f5;
   --foreground-muted: #a1a1aa;
   --border: #27272a;
@@ -14,6 +17,7 @@
   --accent-muted: rgba(230, 57, 70, 0.15);
   
   --shadow-glow: 0 0 15px rgba(230, 57, 70, 0.25);
+  --shadow-premium: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
   --radius-custom: 8px;
 }
 
@@ -22,6 +26,9 @@
   --background: #fafafa;
   --background-card: #ffffff;
   --background-card-hover: #f4f4f5;
+  --background-skeleton: #e4e4e7;
+  --background-modal: #ffffff;
+  --border-modal: #e4e4e7;
   --foreground: #09090b;
   --foreground-muted: #71717a;
   --border: #e4e4e7;
@@ -31,12 +38,16 @@
   --accent-muted: rgba(222, 11, 27, 0.1);
   
   --shadow-glow: 0 0 15px rgba(222, 11, 27, 0.15);
+  --shadow-premium: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
 }
 
 @theme {
   --color-background: var(--background);
   --color-background-card: var(--background-card);
   --color-background-card-hover: var(--background-card-hover);
+  --color-background-skeleton: var(--background-skeleton);
+  --color-background-modal: var(--background-modal);
+  --color-border-modal: var(--border-modal);
   --color-foreground: var(--foreground);
   --color-foreground-muted: var(--foreground-muted);
   --color-border: var(--border);
@@ -45,6 +56,7 @@
   --color-accent-hover: var(--accent-hover);
   --color-accent-muted: var(--accent-muted);
   --shadow-glow: var(--shadow-glow);
+  --shadow-premium: var(--shadow-premium);
   --radius-custom: var(--radius-custom);
   
   --font-sans: 'Inter', 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
@@ -93,3 +105,52 @@ body {
 .animate-pulse-glow {
   animation: pulseGlow 3s infinite ease-in-out;
 }
+
+/* --- Premium Theme-Responsive Semantic Overrides --- */
+/* Maps hardcoded Tailwind zinc classes dynamically to theme variables */
+
+.bg-zinc-950, 
+.bg-zinc-900, 
+.bg-black:not(.bg-accent) {
+  background-color: var(--background-card) !important;
+}
+
+.bg-zinc-950\/80,
+.bg-zinc-950\/60, 
+.bg-zinc-950\/40, 
+.bg-zinc-950\/20, 
+.bg-zinc-900\/50, 
+.bg-zinc-900\/40, 
+.bg-zinc-900\/30,
+.bg-black\/75,
+.bg-black\/60,
+.bg-black\/45,
+.bg-black\/40 {
+  background-color: var(--background-card-hover) !important;
+}
+
+.bg-zinc-800 {
+  background-color: var(--background-skeleton) !important;
+}
+
+.border-zinc-800, 
+.border-zinc-700 {
+  border-color: var(--border) !important;
+}
+
+.hover\:bg-zinc-900:hover, 
+.hover\:bg-zinc-800:hover, 
+.hover\:bg-zinc-950:hover,
+.hover\:bg-zinc-900\/40:hover {
+  background-color: var(--background-card-hover) !important;
+}
+
+/* Ensure text readability on theme-responsive cards */
+.text-foreground-muted {
+  color: var(--foreground-muted) !important;
+}
+
+.border-border\/50 {
+  border-color: var(--border) !important;
+}
+

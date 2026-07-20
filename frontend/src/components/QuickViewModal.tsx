@@ -63,14 +63,14 @@ export default function QuickViewModal() {
           {/* Close button */}
           <button
             onClick={closeQuickView}
-            className="absolute top-4 right-4 z-20 p-1.5 rounded-full bg-zinc-900 border border-border text-foreground hover:text-accent hover:border-accent transition-colors"
+            className="absolute top-4 right-4 z-20 p-1.5 rounded-full bg-background-card border border-border text-foreground hover:text-accent hover:border-accent transition-colors"
           >
             <X size={18} />
           </button>
 
           {/* Left panel: Product Gallery */}
-          <div className="md:col-span-6 p-6 flex flex-col gap-4 bg-zinc-950/40 border-r border-border/50">
-            <div className="relative aspect-square rounded-custom overflow-hidden border border-border bg-zinc-900 flex items-center justify-center">
+          <div className="md:col-span-6 p-6 flex flex-col gap-4 bg-background-card-hover border-r border-border">
+            <div className="relative aspect-square rounded-custom overflow-hidden border border-border bg-background-card flex items-center justify-center">
               <img
                 src={activeImage}
                 alt={selectedProduct.name}
@@ -100,11 +100,11 @@ export default function QuickViewModal() {
             <div className="space-y-4">
               {/* Category, Brand, Series tags */}
               <div className="flex flex-wrap gap-2">
-                <span className="inline-flex items-center gap-1 text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-zinc-900 border border-border text-foreground-muted rounded">
+                <span className="inline-flex items-center gap-1 text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-background-card-hover border border-border text-foreground-muted rounded">
                   <Tag size={10} />
                   {selectedProduct.category.name}
                 </span>
-                <span className="inline-flex items-center gap-1 text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-zinc-900 border border-border text-foreground-muted rounded">
+                <span className="inline-flex items-center gap-1 text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-background-card-hover border border-border text-foreground-muted rounded">
                   <Award size={10} />
                   {selectedProduct.brand.name}
                 </span>
@@ -120,7 +120,7 @@ export default function QuickViewModal() {
               </p>
 
               {/* Price Details */}
-              <div className="p-4 bg-zinc-950/60 border border-border/50 rounded-custom space-y-2">
+              <div className="p-4 bg-background-card border border-border rounded-custom space-y-2">
                 {isPreorder && campaign ? (
                   <>
                     <div className="flex justify-between items-baseline">
@@ -160,15 +160,15 @@ export default function QuickViewModal() {
 
               {/* Specs Table snippet */}
               <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[11px] border-t border-border/40 pt-3">
-                <p className="text-foreground-muted">Series: <span className="text-foreground font-medium">{selectedProduct.series.name}</span></p>
+                <p className="text-foreground-muted">Bộ sưu tập: <span className="text-foreground font-medium">{selectedProduct.series.name}</span></p>
                 {selectedProduct.character && (
-                  <p className="text-foreground-muted">Nhân vật: <span className="text-foreground font-medium">{selectedProduct.character}</span></p>
+                  <p className="text-foreground-muted">Công dụng: <span className="text-foreground font-medium">{selectedProduct.character}</span></p>
                 )}
                 {selectedProduct.scale && (
-                  <p className="text-foreground-muted">Tỷ lệ: <span className="text-foreground font-medium">{selectedProduct.scale}</span></p>
+                  <p className="text-foreground-muted">Dung tích: <span className="text-foreground font-medium">{selectedProduct.scale}</span></p>
                 )}
                 {selectedProduct.height && (
-                  <p className="text-foreground-muted">Chiều cao: <span className="text-foreground font-medium">{selectedProduct.height}</span></p>
+                  <p className="text-foreground-muted">Loại da: <span className="text-foreground font-medium">{selectedProduct.height}</span></p>
                 )}
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function QuickViewModal() {
               <Link
                 href={ROUTES.PRODUCT_DETAIL(selectedProduct.slug)}
                 onClick={closeQuickView}
-                className="flex items-center justify-center gap-2 bg-zinc-900 hover:bg-zinc-800 border border-border text-foreground py-2.5 rounded-custom text-xs font-bold uppercase transition-all duration-200"
+                className="flex items-center justify-center gap-2 bg-background-card border border-border hover:bg-background-card-hover text-foreground py-2.5 rounded-custom text-xs font-bold uppercase transition-all duration-200"
               >
                 <Info size={15} />
                 Chi tiết sản phẩm

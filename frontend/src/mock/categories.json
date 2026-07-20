@@ -1,10 +1,80 @@
 [
-  { "id": 1, "name": "Figure", "slug": "figure", "parentId": null },
-  { "id": 2, "name": "Scale Figure", "slug": "scale-figure", "parentId": 1 },
-  { "id": 3, "name": "Nendoroid", "slug": "nendoroid", "parentId": 1 },
-  { "id": 4, "name": "POP UP PARADE", "slug": "pop-up-parade", "parentId": 1 },
-  { "id": 5, "name": "Model Kit", "slug": "model-kit", "parentId": null },
-  { "id": 6, "name": "Merchandise", "slug": "merchandise", "parentId": null },
-  { "id": 7, "name": "Phụ kiện", "slug": "accessories", "parentId": null },
-  { "id": 8, "name": "Sale", "slug": "sale", "parentId": null }
+  {
+    "id": 1,
+    "name": "Skincare",
+    "slug": "skincare",
+    "parentId": null
+  },
+  {
+    "id": 2,
+    "name": "Makeup",
+    "slug": "makeup",
+    "parentId": null
+  },
+  {
+    "id": 3,
+    "name": "Serum & Tinh chất",
+    "slug": "serum",
+    "parentId": 1
+  },
+  {
+    "id": 4,
+    "name": "Kem Dưỡng",
+    "slug": "kem-duong",
+    "parentId": 1
+  },
+  {
+    "id": 5,
+    "name": "Kem Chống Nắng",
+    "slug": "kem-chong-nang",
+    "parentId": 1
+  },
+  {
+    "id": 6,
+    "name": "Toner & Nước hoa hồng",
+    "slug": "toner",
+    "parentId": 1
+  },
+  {
+    "id": 7,
+    "name": "Sữa Rửa Mặt",
+    "slug": "sua-rua-mat",
+    "parentId": 1
+  },
+  {
+    "id": 8,
+    "name": "Son Môi",
+    "slug": "son-moi",
+    "parentId": 2
+  },
+  {
+    "id": 9,
+    "name": "Cushion & Kem nền",
+    "slug": "cushion",
+    "parentId": 2
+  },
+  {
+    "id": 10,
+    "name": "Nước Tẩy Trang",
+    "slug": "nuoc-tay-trang",
+    "parentId": 1
+  },
+  {
+    "id": 11,
+    "name": "Chăm sóc tóc",
+    "slug": "cham-soc-toc",
+    "parentId": null
+  },
+  {
+    "id": 12,
+    "name": "Chăm sóc cơ thể",
+    "slug": "cham-soc-co-the",
+    "parentId": null
+  },
+  {
+    "id": 13,
+    "name": "Sale",
+    "slug": "sale",
+    "parentId": null
+  }
 ]

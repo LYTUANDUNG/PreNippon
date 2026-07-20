@@ -125,7 +125,7 @@ function ProductsCatalogContent() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
           <h1 className="text-2xl font-black uppercase tracking-tight">Danh Sách Sản Phẩm</h1>
-          <p className="text-xs text-foreground-muted">Khám phá và đặt trước các figure chính hãng Nhật Bản mới nhất</p>
+          <p className="text-xs text-foreground-muted">Khám phá và đặt trước các dòng mỹ phẩm chính hãng nhập khẩu mới nhất</p>
         </div>
         <div className="flex items-center gap-3 w-full md:max-w-xs">
           <div className="relative w-full">
@@ -319,7 +319,7 @@ function ProductsCatalogContent() {
             </div>
           ) : (
             <EmptyState
-              title="Không tìm thấy figure phù hợp"
+              title="Không tìm thấy sản phẩm phù hợp"
               message="Vui lòng điều chỉnh lại bộ lọc hoặc từ khóa tìm kiếm của bạn để khám phá các sản phẩm khác."
               buttonText="Xóa tất cả bộ lọc"
               linkUrl="/products"
