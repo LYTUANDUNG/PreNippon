@@ -2,6 +2,8 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { BlogService } from '../services/BlogService';
 import { Blog } from '../types/blog';
 
+const DEFAULT_BLOGS: Blog[] = [];
+
 export const useBlogs = () => {
   const queryClient = useQueryClient();
 
@@ -33,7 +35,7 @@ export const useBlogs = () => {
   });
 
   return {
-    blogs: blogsQuery.data || [],
+    blogs: blogsQuery.data || DEFAULT_BLOGS,
     isLoading: blogsQuery.isLoading,
     isError: blogsQuery.isError,
     createBlog: createBlogMutation.mutateAsync,

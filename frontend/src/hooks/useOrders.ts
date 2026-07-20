@@ -2,6 +2,8 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { OrderService } from '../services/OrderService';
 import { Order } from '../types/order';
 
+const DEFAULT_ORDERS: Order[] = [];
+
 export const useOrders = () => {
   const queryClient = useQueryClient();
 
@@ -27,7 +29,7 @@ export const useOrders = () => {
   });
 
   return {
-    orders: ordersQuery.data || [],
+    orders: ordersQuery.data || DEFAULT_ORDERS,
     isLoading: ordersQuery.isLoading,
     isError: ordersQuery.isError,
     error: ordersQuery.error,

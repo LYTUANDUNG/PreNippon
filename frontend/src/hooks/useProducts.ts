@@ -2,6 +2,8 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { ProductService } from '../services/ProductService';
 import { Product } from '../types/product';
 
+const DEFAULT_PRODUCTS: Product[] = [];
+
 export const useProducts = () => {
   const queryClient = useQueryClient();
 
@@ -34,7 +36,7 @@ export const useProducts = () => {
   });
 
   return {
-    products: productsQuery.data || [],
+    products: productsQuery.data || DEFAULT_PRODUCTS,
     isLoading: productsQuery.isLoading,
     isError: productsQuery.isError,
     error: productsQuery.error,

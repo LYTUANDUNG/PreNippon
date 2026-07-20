@@ -2,6 +2,8 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { BannerService } from '../services/BannerService';
 import { Banner } from '../types/common';
 
+const DEFAULT_BANNERS: Banner[] = [];
+
 export const useBanners = () => {
   const queryClient = useQueryClient();
 
@@ -33,7 +35,7 @@ export const useBanners = () => {
   });
 
   return {
-    banners: bannersQuery.data || [],
+    banners: bannersQuery.data || DEFAULT_BANNERS,
     isLoading: bannersQuery.isLoading,
     isError: bannersQuery.isError,
     createBanner: createBannerMutation.mutateAsync,
