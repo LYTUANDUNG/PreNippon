@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "One Piece", "slug": "one-piece" },
+  { "id": 2, "name": "Naruto Shippuden", "slug": "naruto" },
+  { "id": 3, "name": "Hatsune Miku", "slug": "hatsune-miku" },
+  { "id": 4, "name": "Jujutsu Kaisen", "slug": "jujutsu-kaisen" },
+  { "id": 5, "name": "Demon Slayer", "slug": "demon-slayer" },
+  { "id": 6, "name": "Genshin Impact", "slug": "genshin-impact" },
+  { "id": 7, "name": "Evangelion", "slug": "evangelion" },
+  { "id": 8, "name": "Fate/Grand Order", "slug": "fate-grand-order" }
+]

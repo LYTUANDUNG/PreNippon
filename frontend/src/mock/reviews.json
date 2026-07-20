@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "userId": 9,
+    "userName": "Phan Thanh I",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer9@gmail.com",
+    "productId": 6,
+    "rating": 5,
+    "comment": "Figure sắc nét từng chi tiết, pose dáng ngầu lòi luôn nha.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-01T04:57:09.996Z"
+  },
+  {
+    "id": 2,
+    "userId": 19,
+    "userName": "Phùng Hải S",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer19@gmail.com",
+    "productId": 26,
+    "rating": 5,
+    "comment": "Lần đầu pre-order ở shop, tư vấn nhiệt tình, hỗ trợ cập nhật timeline rất rõ.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-25T04:57:09.996Z"
+  },
+  {
+    "id": 3,
+    "userId": 26,
+    "userName": "Lê Thanh Z",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer26@gmail.com",
+    "productId": 29,
+    "rating": 5,
+    "comment": "Ủng hộ shop nhiều lần rồi, cực kỳ uy tín!",
+    "status": "APPROVED",
+    "createdAt": "2026-07-18T04:57:09.996Z"
+  },
+  {
+    "id": 4,
+    "userId": 13,
+    "userName": "Bùi Thế M",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer13@gmail.com",
+    "productId": 2,
+    "rating": 5,
+    "comment": "Đã nhận hàng sau khi hoàn tất thanh toán cọc. Thời gian hàng về đúng hẹn.",
+    "imageUrl": "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?w=800&auto=format&fit=crop&q=80",
+    "status": "APPROVED",
+    "createdAt": "2026-06-21T04:57:09.996Z"
+  },
+  {
+    "id": 5,
+    "userId": 21,
+    "userName": "Lê Văn U",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer21@gmail.com",
+    "productId": 22,
+    "rating": 5,
+    "comment": "Lần đầu pre-order ở shop, tư vấn nhiệt tình, hỗ trợ cập nhật timeline rất rõ.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-25T04:57:09.996Z"
+  },
+  {
+    "id": 6,
+    "userId": 26,
+    "userName": "Lê Thanh Z",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer26@gmail.com",
+    "productId": 21,
+    "rating": 3,
+    "comment": "Nendoroid cute lạc lối luôn mng ơi, khớp gắn mượt mà dễ thương.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-07T04:57:09.996Z"
+  },
+  {
+    "id": 7,
+    "userId": 11,
+    "userName": "Đặng Ngọc K",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer11@gmail.com",
+    "productId": 48,
+    "rating": 5,
+    "comment": "Nendoroid cute lạc lối luôn mng ơi, khớp gắn mượt mà dễ thương.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-24T04:57:09.996Z"
+  },
+  {
+    "id": 8,
+    "userId": 23,
+    "userName": "Phạm Xuân W",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer23@gmail.com",
+    "productId": 50,
+    "rating": 5,
+    "comment": "Ủng hộ shop nhiều lần rồi, cực kỳ uy tín!",
+    "imageUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80",
+    "status": "APPROVED",
+    "createdAt": "2026-07-16T04:57:09.996Z"
+  },
+  {
+    "id": 9,
+    "userId": 17,
+    "userName": "Trần Vĩnh Q",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer17@gmail.com",
+    "productId": 43,
+    "rating": 5,
+    "comment": "Hàng cực xịn xò, giá preorder rẻ hơn kha khá so với mua sẵn.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-24T04:57:09.996Z"
+  },
+  {
+    "id": 10,
+    "userId": 20,
+    "userName": "Vũ Hoàng T",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer20@gmail.com",
+    "productId": 26,
+    "rating": 5,
+    "comment": "Hàng box đẹp không móp méo, shop đóng gói siêu kỹ 3 lớp xốp bong bóng.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-29T04:57:09.996Z"
+  },
+  {
+    "id": 11,
+    "userId": 11,
+    "userName": "Đặng Ngọc K",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer11@gmail.com",
+    "productId": 20,
+    "rating": 5,
+    "comment": "Nendoroid cute lạc lối luôn mng ơi, khớp gắn mượt mà dễ thương.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-01T04:57:09.996Z"
+  },
+  {
+    "id": 12,
+    "userId": 8,
+    "userName": "Đỗ Minh H",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer8@gmail.com",
+    "productId": 23,
+    "rating": 3,
+    "comment": "Nendoroid cute lạc lối luôn mng ơi, khớp gắn mượt mà dễ thương.",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80",
+    "status": "APPROVED",
+    "createdAt": "2026-07-18T04:57:09.996Z"
+  },
+  {
+    "id": 13,
+    "userId": 11,
+    "userName": "Đặng Ngọc K",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer11@gmail.com",
+    "productId": 4,
+    "rating": 4,
+    "comment": "Scale 1/7 to vật vã, trưng bày trung tâm tủ kính hết bài.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-02T04:57:09.996Z"
+  },
+  {
+    "id": 14,
+    "userId": 17,
+    "userName": "Trần Vĩnh Q",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer17@gmail.com",
+    "productId": 26,
+    "rating": 3,
+    "comment": "Good Smile Company chưa bao giờ làm mình thất vọng, chi tiết khuôn mặt rất có hồn.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-17T04:57:09.996Z"
+  },
+  {
+    "id": 15,
+    "userId": 26,
+    "userName": "Lê Thanh Z",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer26@gmail.com",
+    "productId": 30,
+    "rating": 4,
+    "comment": "Lần đầu pre-order ở shop, tư vấn nhiệt tình, hỗ trợ cập nhật timeline rất rõ.",
+    "status": "APPROVED",
+    "createdAt": "2026-07-16T04:57:09.996Z"
+  },
+  {
+    "id": 16,
+    "userId": 21,
+    "userName": "Lê Văn U",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer21@gmail.com",
+    "productId": 34,
+    "rating": 4,
+    "comment": "Figure sắc nét từng chi tiết, pose dáng ngầu lòi luôn nha.",
+    "imageUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
+    "status": "APPROVED",
+    "createdAt": "2026-07-15T04:57:09.996Z"
+  },
+  {
+    "id": 17,
+    "userId": 19,
+    "userName": "Phùng Hải S",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer19@gmail.com",
+    "productId": 10,
+    "rating": 5,
+    "comment": "Sản phẩm quá đẹp, nước sơn mịn và sắc sảo đúng chất chính hãng!",
+    "status": "APPROVED",
+    "createdAt": "2026-06-25T04:57:09.996Z"
+  },
+  {
+    "id": 18,
+    "userId": 8,
+    "userName": "Đỗ Minh H",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer8@gmail.com",
+    "productId": 32,
+    "rating": 4,
+    "comment": "Ủng hộ shop nhiều lần rồi, cực kỳ uy tín!",
+    "status": "APPROVED",
+    "createdAt": "2026-07-11T04:57:09.996Z"
+  },
+  {
+    "id": 19,
+    "userId": 20,
+    "userName": "Vũ Hoàng T",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer20@gmail.com",
+    "productId": 17,
+    "rating": 3,
+    "comment": "Hàng box đẹp không móp méo, shop đóng gói siêu kỹ 3 lớp xốp bong bóng.",
+    "status": "APPROVED",
+    "createdAt": "2026-06-20T04:57:09.996Z"
+  },
+  {
+    "id": 20,
+    "userId": 26,
+    "userName": "Lê Thanh Z",
+    "userAvatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=customer26@gmail.com",
+    "productId": 5,
+    "rating": 5,
+    "comment": "Ủng hộ shop nhiều lần rồi, cực kỳ uy tín!",
+    "imageUrl": "https://images.unsplash.com/photo-1608889174633-8a3d3c8b4042?w=800&auto=format&fit=crop&q=80",
+    "status": "APPROVED",
+    "createdAt": "2026-07-19T04:57:09.996Z"
+  }
+]

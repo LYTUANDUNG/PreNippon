@@ -1,0 +1,1112 @@
+[
+  {
+    "id": 1,
+    "email": "customer1@gmail.com",
+    "fullName": "Nguyễn Văn A",
+    "phone": "0911068904",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 3050,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 1,
+        "userId": 1,
+        "recipientName": "Nguyễn Văn A",
+        "phoneNumber": "0912247385",
+        "street": "123 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "recipientName": "Nguyễn Văn A",
+        "phoneNumber": "0975570221",
+        "street": "223 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-14T04:57:09.993Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 2,
+    "email": "customer2@gmail.com",
+    "fullName": "Trần Thị B",
+    "phone": "0935644242",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 2615,
+    "tier": "SILVER",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 3,
+        "userId": 2,
+        "recipientName": "Trần Thị B",
+        "phoneNumber": "0928596946",
+        "street": "763 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "recipientName": "Trần Thị B",
+        "phoneNumber": "0997979041",
+        "street": "470 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-02T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 3,
+    "email": "customer3@gmail.com",
+    "fullName": "Lê Hoàng C",
+    "phone": "0969483508",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4820,
+    "tier": "SILVER",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 5,
+        "userId": 3,
+        "recipientName": "Lê Hoàng C",
+        "phoneNumber": "0932938124",
+        "street": "69 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 6,
+        "userId": 3,
+        "recipientName": "Lê Hoàng C",
+        "phoneNumber": "0953604866",
+        "street": "385 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-28T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 4,
+    "email": "customer4@gmail.com",
+    "fullName": "Phạm Minh D",
+    "phone": "0956477823",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 889,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 7,
+        "userId": 4,
+        "recipientName": "Phạm Minh D",
+        "phoneNumber": "0982418060",
+        "street": "254 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 8,
+        "userId": 4,
+        "recipientName": "Phạm Minh D",
+        "phoneNumber": "0993383048",
+        "street": "18 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-14T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 5,
+    "email": "customer5@gmail.com",
+    "fullName": "Võ Hoàng E",
+    "phone": "0972041818",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 1417,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 9,
+        "userId": 5,
+        "recipientName": "Võ Hoàng E",
+        "phoneNumber": "0934384378",
+        "street": "740 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 10,
+        "userId": 5,
+        "recipientName": "Võ Hoàng E",
+        "phoneNumber": "0962593220",
+        "street": "456 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-26T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 6,
+    "email": "customer6@gmail.com",
+    "fullName": "Nguyễn Thị F",
+    "phone": "0947672537",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 1542,
+    "tier": "PLATINUM",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 11,
+        "userId": 6,
+        "recipientName": "Nguyễn Thị F",
+        "phoneNumber": "0953547512",
+        "street": "328 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 12,
+        "userId": 6,
+        "recipientName": "Nguyễn Thị F",
+        "phoneNumber": "0989001588",
+        "street": "440 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-13T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 7,
+    "email": "customer7@gmail.com",
+    "fullName": "Hoàng Văn G",
+    "phone": "0918152059",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4539,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 13,
+        "userId": 7,
+        "recipientName": "Hoàng Văn G",
+        "phoneNumber": "0930768268",
+        "street": "773 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 14,
+        "userId": 7,
+        "recipientName": "Hoàng Văn G",
+        "phoneNumber": "0967805341",
+        "street": "444 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-27T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 8,
+    "email": "customer8@gmail.com",
+    "fullName": "Đỗ Minh H",
+    "phone": "0927120782",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4584,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 15,
+        "userId": 8,
+        "recipientName": "Đỗ Minh H",
+        "phoneNumber": "0968037363",
+        "street": "125 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 16,
+        "userId": 8,
+        "recipientName": "Đỗ Minh H",
+        "phoneNumber": "0976979823",
+        "street": "295 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-03T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 9,
+    "email": "customer9@gmail.com",
+    "fullName": "Phan Thanh I",
+    "phone": "0979001316",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 5114,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 17,
+        "userId": 9,
+        "recipientName": "Phan Thanh I",
+        "phoneNumber": "0924432893",
+        "street": "994 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 18,
+        "userId": 9,
+        "recipientName": "Phan Thanh I",
+        "phoneNumber": "0987256771",
+        "street": "193 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-20T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 10,
+    "email": "customer10@gmail.com",
+    "fullName": "Nguyễn Khắc J",
+    "phone": "0987178340",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 137,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 19,
+        "userId": 10,
+        "recipientName": "Nguyễn Khắc J",
+        "phoneNumber": "0959261529",
+        "street": "750 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 20,
+        "userId": 10,
+        "recipientName": "Nguyễn Khắc J",
+        "phoneNumber": "0993760888",
+        "street": "447 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-09T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 11,
+    "email": "customer11@gmail.com",
+    "fullName": "Đặng Ngọc K",
+    "phone": "0979115056",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4234,
+    "tier": "PLATINUM",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 21,
+        "userId": 11,
+        "recipientName": "Đặng Ngọc K",
+        "phoneNumber": "0943030783",
+        "street": "483 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 22,
+        "userId": 11,
+        "recipientName": "Đặng Ngọc K",
+        "phoneNumber": "0933033141",
+        "street": "182 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-16T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 12,
+    "email": "customer12@gmail.com",
+    "fullName": "Trịnh Hữu L",
+    "phone": "0941352462",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 3377,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 23,
+        "userId": 12,
+        "recipientName": "Trịnh Hữu L",
+        "phoneNumber": "0926991986",
+        "street": "822 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 24,
+        "userId": 12,
+        "recipientName": "Trịnh Hữu L",
+        "phoneNumber": "0939629329",
+        "street": "30 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-08T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 13,
+    "email": "customer13@gmail.com",
+    "fullName": "Bùi Thế M",
+    "phone": "0940857568",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 5611,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 25,
+        "userId": 13,
+        "recipientName": "Bùi Thế M",
+        "phoneNumber": "0983004691",
+        "street": "61 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 26,
+        "userId": 13,
+        "recipientName": "Bùi Thế M",
+        "phoneNumber": "0945520082",
+        "street": "128 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-18T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 14,
+    "email": "customer14@gmail.com",
+    "fullName": "Lý Hoài N",
+    "phone": "0926005687",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 395,
+    "tier": "PLATINUM",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 27,
+        "userId": 14,
+        "recipientName": "Lý Hoài N",
+        "phoneNumber": "0988171199",
+        "street": "874 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 28,
+        "userId": 14,
+        "recipientName": "Lý Hoài N",
+        "phoneNumber": "0929514435",
+        "street": "59 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-26T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 15,
+    "email": "customer15@gmail.com",
+    "fullName": "Ngô Bảo O",
+    "phone": "0998560918",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4960,
+    "tier": "SILVER",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 29,
+        "userId": 15,
+        "recipientName": "Ngô Bảo O",
+        "phoneNumber": "0958667176",
+        "street": "792 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 30,
+        "userId": 15,
+        "recipientName": "Ngô Bảo O",
+        "phoneNumber": "0970948907",
+        "street": "96 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 16,
+    "email": "customer16@gmail.com",
+    "fullName": "Dương Hồng P",
+    "phone": "0988567572",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4511,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 31,
+        "userId": 16,
+        "recipientName": "Dương Hồng P",
+        "phoneNumber": "0970149982",
+        "street": "244 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 32,
+        "userId": 16,
+        "recipientName": "Dương Hồng P",
+        "phoneNumber": "0956824353",
+        "street": "37 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-14T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 17,
+    "email": "customer17@gmail.com",
+    "fullName": "Trần Vĩnh Q",
+    "phone": "0995524804",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 5648,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 33,
+        "userId": 17,
+        "recipientName": "Trần Vĩnh Q",
+        "phoneNumber": "0990418526",
+        "street": "352 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 34,
+        "userId": 17,
+        "recipientName": "Trần Vĩnh Q",
+        "phoneNumber": "0985883323",
+        "street": "294 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-16T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 18,
+    "email": "customer18@gmail.com",
+    "fullName": "Lương Đức R",
+    "phone": "0916781415",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4932,
+    "tier": "SILVER",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 35,
+        "userId": 18,
+        "recipientName": "Lương Đức R",
+        "phoneNumber": "0972856843",
+        "street": "808 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 36,
+        "userId": 18,
+        "recipientName": "Lương Đức R",
+        "phoneNumber": "0924326508",
+        "street": "305 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 19,
+    "email": "customer19@gmail.com",
+    "fullName": "Phùng Hải S",
+    "phone": "0921870697",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 902,
+    "tier": "SILVER",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 37,
+        "userId": 19,
+        "recipientName": "Phùng Hải S",
+        "phoneNumber": "0963287323",
+        "street": "658 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 38,
+        "userId": 19,
+        "recipientName": "Phùng Hải S",
+        "phoneNumber": "0982478297",
+        "street": "168 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-18T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 20,
+    "email": "customer20@gmail.com",
+    "fullName": "Vũ Hoàng T",
+    "phone": "0931360286",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 3758,
+    "tier": "PLATINUM",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 39,
+        "userId": 20,
+        "recipientName": "Vũ Hoàng T",
+        "phoneNumber": "0976088097",
+        "street": "545 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 40,
+        "userId": 20,
+        "recipientName": "Vũ Hoàng T",
+        "phoneNumber": "0975383667",
+        "street": "490 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-11T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 21,
+    "email": "customer21@gmail.com",
+    "fullName": "Lê Văn U",
+    "phone": "0930772809",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 4954,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 41,
+        "userId": 21,
+        "recipientName": "Lê Văn U",
+        "phoneNumber": "0986377169",
+        "street": "172 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 42,
+        "userId": 21,
+        "recipientName": "Lê Văn U",
+        "phoneNumber": "0999476926",
+        "street": "125 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-18T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 22,
+    "email": "customer22@gmail.com",
+    "fullName": "Nguyễn Quốc V",
+    "phone": "0948779561",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 3791,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 43,
+        "userId": 22,
+        "recipientName": "Nguyễn Quốc V",
+        "phoneNumber": "0954834772",
+        "street": "300 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 44,
+        "userId": 22,
+        "recipientName": "Nguyễn Quốc V",
+        "phoneNumber": "0974579079",
+        "street": "130 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-09T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 23,
+    "email": "customer23@gmail.com",
+    "fullName": "Phạm Xuân W",
+    "phone": "0938438085",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 92,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 45,
+        "userId": 23,
+        "recipientName": "Phạm Xuân W",
+        "phoneNumber": "0984409236",
+        "street": "824 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 46,
+        "userId": 23,
+        "recipientName": "Phạm Xuân W",
+        "phoneNumber": "0944104195",
+        "street": "233 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-13T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 24,
+    "email": "customer24@gmail.com",
+    "fullName": "Bùi Văn X",
+    "phone": "0964439832",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 3680,
+    "tier": "DIAMOND",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 47,
+        "userId": 24,
+        "recipientName": "Bùi Văn X",
+        "phoneNumber": "0959224474",
+        "street": "526 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 48,
+        "userId": 24,
+        "recipientName": "Bùi Văn X",
+        "phoneNumber": "0960166658",
+        "street": "262 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-06-02T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 25,
+    "email": "customer25@gmail.com",
+    "fullName": "Trần Như Y",
+    "phone": "0933268906",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 5450,
+    "tier": "GOLD",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 49,
+        "userId": 25,
+        "recipientName": "Trần Như Y",
+        "phoneNumber": "0950593761",
+        "street": "463 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 50,
+        "userId": 25,
+        "recipientName": "Trần Như Y",
+        "phoneNumber": "0938709049",
+        "street": "432 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-04-18T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 26,
+    "email": "customer26@gmail.com",
+    "fullName": "Lê Thanh Z",
+    "phone": "0993889538",
+    "role": "ROLE_CUSTOMER",
+    "status": "ACTIVE",
+    "rewardPoints": 2145,
+    "tier": "PLATINUM",
+    "twoFaEnabled": false,
+    "addresses": [
+      {
+        "id": 51,
+        "userId": 26,
+        "recipientName": "Lê Thanh Z",
+        "phoneNumber": "0931359680",
+        "street": "849 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 52,
+        "userId": 26,
+        "recipientName": "Lê Thanh Z",
+        "phoneNumber": "0992289508",
+        "street": "456 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-23T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 27,
+    "email": "admin1@prenippon.com",
+    "fullName": "Admin PreNippon",
+    "phone": "0917255251",
+    "role": "ROLE_ADMIN",
+    "status": "ACTIVE",
+    "rewardPoints": 0,
+    "tier": "SILVER",
+    "twoFaEnabled": true,
+    "addresses": [
+      {
+        "id": 53,
+        "userId": 27,
+        "recipientName": "Admin PreNippon",
+        "phoneNumber": "0969034993",
+        "street": "158 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 54,
+        "userId": 27,
+        "recipientName": "Admin PreNippon",
+        "phoneNumber": "0993596648",
+        "street": "490 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-08T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 28,
+    "email": "admin2@prenippon.com",
+    "fullName": "Manager Figure",
+    "phone": "0987889585",
+    "role": "ROLE_ADMIN",
+    "status": "ACTIVE",
+    "rewardPoints": 0,
+    "tier": "SILVER",
+    "twoFaEnabled": true,
+    "addresses": [
+      {
+        "id": 55,
+        "userId": 28,
+        "recipientName": "Manager Figure",
+        "phoneNumber": "0937388820",
+        "street": "97 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 56,
+        "userId": 28,
+        "recipientName": "Manager Figure",
+        "phoneNumber": "0960590440",
+        "street": "369 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-07-01T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 29,
+    "email": "admin3@prenippon.com",
+    "fullName": "Tech Lead Morachi",
+    "phone": "0995573929",
+    "role": "ROLE_ADMIN",
+    "status": "ACTIVE",
+    "rewardPoints": 0,
+    "tier": "SILVER",
+    "twoFaEnabled": true,
+    "addresses": [
+      {
+        "id": 57,
+        "userId": 29,
+        "recipientName": "Tech Lead Morachi",
+        "phoneNumber": "0967421034",
+        "street": "419 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 58,
+        "userId": 29,
+        "recipientName": "Tech Lead Morachi",
+        "phoneNumber": "0961167131",
+        "street": "241 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-07-02T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  },
+  {
+    "id": 30,
+    "email": "admin4@prenippon.com",
+    "fullName": "Tester PreNippon",
+    "phone": "0935564768",
+    "role": "ROLE_ADMIN",
+    "status": "ACTIVE",
+    "rewardPoints": 0,
+    "tier": "SILVER",
+    "twoFaEnabled": true,
+    "addresses": [
+      {
+        "id": 59,
+        "userId": 30,
+        "recipientName": "Tester PreNippon",
+        "phoneNumber": "0912101600",
+        "street": "483 Đường Láng",
+        "ward": "Láng Hạ",
+        "district": "Đống Đa",
+        "city": "Hà Nội",
+        "isDefault": true
+      },
+      {
+        "id": 60,
+        "userId": 30,
+        "recipientName": "Tester PreNippon",
+        "phoneNumber": "0958870062",
+        "street": "232 Nguyễn Trãi",
+        "ward": "Thanh Xuân Trung",
+        "district": "Thanh Xuân",
+        "city": "Hà Nội",
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2026-05-05T04:57:09.994Z",
+    "updatedAt": "2026-07-20T04:57:09.994Z"
+  }
+]

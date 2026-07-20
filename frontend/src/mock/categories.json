@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Figure", "slug": "figure", "parentId": null },
+  { "id": 2, "name": "Scale Figure", "slug": "scale-figure", "parentId": 1 },
+  { "id": 3, "name": "Nendoroid", "slug": "nendoroid", "parentId": 1 },
+  { "id": 4, "name": "POP UP PARADE", "slug": "pop-up-parade", "parentId": 1 },
+  { "id": 5, "name": "Model Kit", "slug": "model-kit", "parentId": null },
+  { "id": 6, "name": "Merchandise", "slug": "merchandise", "parentId": null },
+  { "id": 7, "name": "Phụ kiện", "slug": "accessories", "parentId": null },
+  { "id": 8, "name": "Sale", "slug": "sale", "parentId": null }
+]

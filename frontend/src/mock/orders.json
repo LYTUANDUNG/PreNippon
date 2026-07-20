@@ -1,0 +1,5087 @@
+[
+  {
+    "id": 1,
+    "userId": 10,
+    "orderCode": "PRE-2026-0001",
+    "totalAmount": 12200000,
+    "requiredDeposit": 2960000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Nguyễn Khắc J",
+    "phoneNumber": "0987178340",
+    "shippingAddress": "750 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 122,
+    "items": [
+      {
+        "id": 10,
+        "orderId": 1,
+        "productId": 34,
+        "quantity": 1,
+        "price": 5000000,
+        "depositAmount": 2000000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 11,
+        "orderId": 1,
+        "productId": 26,
+        "quantity": 1,
+        "price": 3200000,
+        "depositAmount": 960000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 12,
+        "orderId": 1,
+        "productId": 9,
+        "quantity": 1,
+        "price": 4000000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-15T04:57:09.996Z",
+    "updatedAt": "2026-07-20T04:57:09.996Z"
+  },
+  {
+    "id": 2,
+    "userId": 13,
+    "orderCode": "PRE-2026-0002",
+    "totalAmount": 2700000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Bùi Thế M",
+    "phoneNumber": "0940857568",
+    "shippingAddress": "61 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 27,
+    "items": [
+      {
+        "id": 20,
+        "orderId": 2,
+        "productId": 39,
+        "quantity": 2,
+        "price": 1350000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-29T04:57:09.996Z",
+    "updatedAt": "2026-07-20T04:57:09.996Z"
+  },
+  {
+    "id": 3,
+    "userId": 9,
+    "orderCode": "PRE-2026-0003",
+    "totalAmount": 13300000,
+    "requiredDeposit": 3990000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 133,
+    "items": [
+      {
+        "id": 30,
+        "orderId": 3,
+        "productId": 6,
+        "quantity": 1,
+        "price": 2600000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 31,
+        "orderId": 3,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-09T04:57:09.996Z",
+    "updatedAt": "2026-07-20T04:57:09.996Z"
+  },
+  {
+    "id": 4,
+    "userId": 18,
+    "orderCode": "PRE-2026-0004",
+    "totalAmount": 9200000,
+    "requiredDeposit": 1700000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Lương Đức R",
+    "phoneNumber": "0916781415",
+    "shippingAddress": "808 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 92,
+    "items": [
+      {
+        "id": 40,
+        "orderId": 4,
+        "productId": 43,
+        "quantity": 1,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 41,
+        "orderId": 4,
+        "productId": 22,
+        "quantity": 2,
+        "price": 1700000,
+        "depositAmount": 1700000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-19T04:57:09.996Z",
+    "updatedAt": "2026-07-20T04:57:09.996Z"
+  },
+  {
+    "id": 5,
+    "userId": 17,
+    "orderCode": "PRE-2026-0005",
+    "totalAmount": 10550000,
+    "requiredDeposit": 1560000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 105,
+    "items": [
+      {
+        "id": 50,
+        "orderId": 5,
+        "productId": 21,
+        "quantity": 1,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 51,
+        "orderId": 5,
+        "productId": 31,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 52,
+        "orderId": 5,
+        "productId": 6,
+        "quantity": 2,
+        "price": 2600000,
+        "depositAmount": 1560000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-07-04T04:57:09.996Z",
+    "updatedAt": "2026-07-20T04:57:09.996Z"
+  },
+  {
+    "id": 6,
+    "userId": 12,
+    "orderCode": "PRE-2026-0006",
+    "totalAmount": 22300000,
+    "requiredDeposit": 3450000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Trịnh Hữu L",
+    "phoneNumber": "0941352462",
+    "shippingAddress": "822 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 223,
+    "items": [
+      {
+        "id": 60,
+        "orderId": 6,
+        "productId": 44,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 3450000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 61,
+        "orderId": 6,
+        "productId": 27,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 62,
+        "orderId": 6,
+        "productId": 7,
+        "quantity": 2,
+        "price": 3650000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-07-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 7,
+    "userId": 14,
+    "orderCode": "PRE-2026-0007",
+    "totalAmount": 13800000,
+    "requiredDeposit": 5290000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Lý Hoài N",
+    "phoneNumber": "0926005687",
+    "shippingAddress": "874 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 138,
+    "items": [
+      {
+        "id": 70,
+        "orderId": 7,
+        "productId": 12,
+        "quantity": 2,
+        "price": 1150000,
+        "depositAmount": 690000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 71,
+        "orderId": 7,
+        "productId": 40,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 4600000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-25T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 8,
+    "userId": 7,
+    "orderCode": "PRE-2026-0008",
+    "totalAmount": 3150000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Hoàng Văn G",
+    "phoneNumber": "0918152059",
+    "shippingAddress": "773 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 31,
+    "items": [
+      {
+        "id": 80,
+        "orderId": 8,
+        "productId": 19,
+        "quantity": 1,
+        "price": 3150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-26T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 9,
+    "userId": 5,
+    "orderCode": "PRE-2026-0009",
+    "totalAmount": 23050000,
+    "requiredDeposit": 3210000,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Võ Hoàng E",
+    "phoneNumber": "0972041818",
+    "shippingAddress": "740 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 230,
+    "items": [
+      {
+        "id": 90,
+        "orderId": 9,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 91,
+        "orderId": 9,
+        "productId": 33,
+        "quantity": 2,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 92,
+        "orderId": 9,
+        "productId": 21,
+        "quantity": 1,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 10,
+    "userId": 17,
+    "orderCode": "PRE-2026-0010",
+    "totalAmount": 7700000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "PENDING",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 77,
+    "items": [
+      {
+        "id": 100,
+        "orderId": 10,
+        "productId": 41,
+        "quantity": 1,
+        "price": 2200000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 101,
+        "orderId": 10,
+        "productId": 45,
+        "quantity": 1,
+        "price": 5500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-07-05T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 11,
+    "userId": 1,
+    "orderCode": "PRE-2026-0011",
+    "totalAmount": 17650000,
+    "requiredDeposit": 1625000,
+    "depositPaid": 1625000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Văn A",
+    "phoneNumber": "0911068904",
+    "shippingAddress": "123 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 176,
+    "items": [
+      {
+        "id": 110,
+        "orderId": 11,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 111,
+        "orderId": 11,
+        "productId": 47,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 112,
+        "orderId": 11,
+        "productId": 43,
+        "quantity": 2,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 110,
+        "orderId": 11,
+        "amount": 1625000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN758922643",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-18T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 12,
+    "userId": 8,
+    "orderCode": "PRE-2026-0012",
+    "totalAmount": 11700000,
+    "requiredDeposit": 5350000,
+    "depositPaid": 5350000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Đỗ Minh H",
+    "phoneNumber": "0927120782",
+    "shippingAddress": "125 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 117,
+    "items": [
+      {
+        "id": 120,
+        "orderId": 12,
+        "productId": 34,
+        "quantity": 1,
+        "price": 5000000,
+        "depositAmount": 2000000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 121,
+        "orderId": 12,
+        "productId": 14,
+        "quantity": 2,
+        "price": 3350000,
+        "depositAmount": 3350000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 120,
+        "orderId": 12,
+        "amount": 5350000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN710547517",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-30T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 13,
+    "userId": 14,
+    "orderCode": "PRE-2026-0013",
+    "totalAmount": 9100000,
+    "requiredDeposit": 3640000,
+    "depositPaid": 3640000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lý Hoài N",
+    "phoneNumber": "0926005687",
+    "shippingAddress": "874 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 91,
+    "items": [
+      {
+        "id": 130,
+        "orderId": 13,
+        "productId": 10,
+        "quantity": 2,
+        "price": 4550000,
+        "depositAmount": 3640000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 130,
+        "orderId": 13,
+        "amount": 3640000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN277676723",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-17T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 14,
+    "userId": 8,
+    "orderCode": "PRE-2026-0014",
+    "totalAmount": 11800000,
+    "requiredDeposit": 1605000,
+    "depositPaid": 1605000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Đỗ Minh H",
+    "phoneNumber": "0927120782",
+    "shippingAddress": "125 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 118,
+    "items": [
+      {
+        "id": 140,
+        "orderId": 14,
+        "productId": 29,
+        "quantity": 1,
+        "price": 5050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 141,
+        "orderId": 14,
+        "productId": 8,
+        "quantity": 1,
+        "price": 5350000,
+        "depositAmount": 1605000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 142,
+        "orderId": 14,
+        "productId": 15,
+        "quantity": 1,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 140,
+        "orderId": 14,
+        "amount": 1605000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN258747731",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-11T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 15,
+    "userId": 17,
+    "orderCode": "PRE-2026-0015",
+    "totalAmount": 7900000,
+    "requiredDeposit": 1700000,
+    "depositPaid": 1700000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 79,
+    "items": [
+      {
+        "id": 150,
+        "orderId": 15,
+        "productId": 22,
+        "quantity": 2,
+        "price": 1700000,
+        "depositAmount": 1700000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 151,
+        "orderId": 15,
+        "productId": 23,
+        "quantity": 1,
+        "price": 4500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 150,
+        "orderId": 15,
+        "amount": 1700000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN267118420",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-06T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 16,
+    "userId": 3,
+    "orderCode": "PRE-2026-0016",
+    "totalAmount": 8200000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 8200000,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 82,
+    "items": [
+      {
+        "id": 160,
+        "orderId": 16,
+        "productId": 35,
+        "quantity": 2,
+        "price": 4100000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 160,
+        "orderId": 16,
+        "amount": 8200000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN118125017",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-15T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 17,
+    "userId": 12,
+    "orderCode": "PRE-2026-0017",
+    "totalAmount": 10800000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 10800000,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Trịnh Hữu L",
+    "phoneNumber": "0941352462",
+    "shippingAddress": "822 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 108,
+    "items": [
+      {
+        "id": 170,
+        "orderId": 17,
+        "productId": 5,
+        "quantity": 2,
+        "price": 5400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 170,
+        "orderId": 17,
+        "amount": 10800000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN232102230",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 18,
+    "userId": 17,
+    "orderCode": "PRE-2026-0018",
+    "totalAmount": 14500000,
+    "requiredDeposit": 3210000,
+    "depositPaid": 3210000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 145,
+    "items": [
+      {
+        "id": 180,
+        "orderId": 18,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 181,
+        "orderId": 18,
+        "productId": 13,
+        "quantity": 1,
+        "price": 3800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 180,
+        "orderId": 18,
+        "amount": 3210000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN520408038",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 19,
+    "userId": 23,
+    "orderCode": "PRE-2026-0019",
+    "totalAmount": 5200000,
+    "requiredDeposit": 1560000,
+    "depositPaid": 1560000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phạm Xuân W",
+    "phoneNumber": "0938438085",
+    "shippingAddress": "824 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 52,
+    "items": [
+      {
+        "id": 190,
+        "orderId": 19,
+        "productId": 6,
+        "quantity": 2,
+        "price": 2600000,
+        "depositAmount": 1560000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 190,
+        "orderId": 19,
+        "amount": 1560000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN958656957",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-27T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 20,
+    "userId": 4,
+    "orderCode": "PRE-2026-0020",
+    "totalAmount": 8400000,
+    "requiredDeposit": 1960000,
+    "depositPaid": 1960000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phạm Minh D",
+    "phoneNumber": "0956477823",
+    "shippingAddress": "254 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 84,
+    "items": [
+      {
+        "id": 200,
+        "orderId": 20,
+        "productId": 27,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 201,
+        "orderId": 20,
+        "productId": 18,
+        "quantity": 2,
+        "price": 2450000,
+        "depositAmount": 1960000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 200,
+        "orderId": 20,
+        "amount": 1960000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN172985911",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 21,
+    "userId": 9,
+    "orderCode": "PRE-2026-0021",
+    "totalAmount": 15250000,
+    "requiredDeposit": 5030000,
+    "depositPaid": 5030000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 152,
+    "items": [
+      {
+        "id": 210,
+        "orderId": 21,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 211,
+        "orderId": 21,
+        "productId": 10,
+        "quantity": 1,
+        "price": 4550000,
+        "depositAmount": 1820000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 210,
+        "orderId": 21,
+        "amount": 5030000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN766397177",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 22,
+    "userId": 20,
+    "orderCode": "PRE-2026-0022",
+    "totalAmount": 4550000,
+    "requiredDeposit": 1820000,
+    "depositPaid": 1820000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Vũ Hoàng T",
+    "phoneNumber": "0931360286",
+    "shippingAddress": "545 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 45,
+    "items": [
+      {
+        "id": 220,
+        "orderId": 22,
+        "productId": 10,
+        "quantity": 1,
+        "price": 4550000,
+        "depositAmount": 1820000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 220,
+        "orderId": 22,
+        "amount": 1820000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN625832757",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-27T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 23,
+    "userId": 17,
+    "orderCode": "PRE-2026-0023",
+    "totalAmount": 11300000,
+    "requiredDeposit": 780000,
+    "depositPaid": 780000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 113,
+    "items": [
+      {
+        "id": 230,
+        "orderId": 23,
+        "productId": 17,
+        "quantity": 2,
+        "price": 2950000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 231,
+        "orderId": 23,
+        "productId": 2,
+        "quantity": 2,
+        "price": 1300000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 232,
+        "orderId": 23,
+        "productId": 47,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 230,
+        "orderId": 23,
+        "amount": 780000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN367027974",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-05T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 24,
+    "userId": 13,
+    "orderCode": "PRE-2026-0024",
+    "totalAmount": 4000000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 4000000,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Bùi Thế M",
+    "phoneNumber": "0940857568",
+    "shippingAddress": "61 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 40,
+    "items": [
+      {
+        "id": 240,
+        "orderId": 24,
+        "productId": 9,
+        "quantity": 1,
+        "price": 4000000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 240,
+        "orderId": 24,
+        "amount": 4000000,
+        "paymentMethod": "MOMO",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN142307069",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 25,
+    "userId": 13,
+    "orderCode": "PRE-2026-0025",
+    "totalAmount": 10600000,
+    "requiredDeposit": 1560000,
+    "depositPaid": 1560000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Bùi Thế M",
+    "phoneNumber": "0940857568",
+    "shippingAddress": "61 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 106,
+    "items": [
+      {
+        "id": 250,
+        "orderId": 25,
+        "productId": 6,
+        "quantity": 2,
+        "price": 2600000,
+        "depositAmount": 1560000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 251,
+        "orderId": 25,
+        "productId": 5,
+        "quantity": 1,
+        "price": 5400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 250,
+        "orderId": 25,
+        "amount": 1560000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN753567515",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-23T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 26,
+    "userId": 25,
+    "orderCode": "PRE-2026-0026",
+    "totalAmount": 17500000,
+    "requiredDeposit": 6130000,
+    "depositPaid": 6130000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Như Y",
+    "phoneNumber": "0933268906",
+    "shippingAddress": "463 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 175,
+    "items": [
+      {
+        "id": 260,
+        "orderId": 26,
+        "productId": 32,
+        "quantity": 2,
+        "price": 4850000,
+        "depositAmount": 3880000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 261,
+        "orderId": 26,
+        "productId": 28,
+        "quantity": 2,
+        "price": 2250000,
+        "depositAmount": 2250000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 262,
+        "orderId": 26,
+        "productId": 31,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 260,
+        "orderId": 26,
+        "amount": 6130000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN160726346",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 27,
+    "userId": 23,
+    "orderCode": "PRE-2026-0027",
+    "totalAmount": 8750000,
+    "requiredDeposit": 3000000,
+    "depositPaid": 3000000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phạm Xuân W",
+    "phoneNumber": "0938438085",
+    "shippingAddress": "824 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 87,
+    "items": [
+      {
+        "id": 270,
+        "orderId": 27,
+        "productId": 11,
+        "quantity": 1,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 271,
+        "orderId": 27,
+        "productId": 50,
+        "quantity": 1,
+        "price": 2000000,
+        "depositAmount": 1000000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 272,
+        "orderId": 27,
+        "productId": 16,
+        "quantity": 2,
+        "price": 2500000,
+        "depositAmount": 2000000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 270,
+        "orderId": 27,
+        "amount": 3000000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN175370941",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-27T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 28,
+    "userId": 20,
+    "orderCode": "PRE-2026-0028",
+    "totalAmount": 2050000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 2050000,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Vũ Hoàng T",
+    "phoneNumber": "0931360286",
+    "shippingAddress": "545 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 20,
+    "items": [
+      {
+        "id": 280,
+        "orderId": 28,
+        "productId": 21,
+        "quantity": 1,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 280,
+        "orderId": 28,
+        "amount": 2050000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN687206593",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-18T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 29,
+    "userId": 26,
+    "orderCode": "PRE-2026-0029",
+    "totalAmount": 1750000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 1750000,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lê Thanh Z",
+    "phoneNumber": "0993889538",
+    "shippingAddress": "849 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 17,
+    "items": [
+      {
+        "id": 290,
+        "orderId": 29,
+        "productId": 11,
+        "quantity": 1,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 290,
+        "orderId": 29,
+        "amount": 1750000,
+        "paymentMethod": "MOMO",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN156350764",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-22T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 30,
+    "userId": 7,
+    "orderCode": "PRE-2026-0030",
+    "totalAmount": 18250000,
+    "requiredDeposit": 6180000,
+    "depositPaid": 6180000,
+    "remainingPaid": 0,
+    "status": "DEPOSIT_PAID",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Hoàng Văn G",
+    "phoneNumber": "0918152059",
+    "shippingAddress": "773 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 182,
+    "items": [
+      {
+        "id": 300,
+        "orderId": 30,
+        "productId": 47,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 301,
+        "orderId": 30,
+        "productId": 32,
+        "quantity": 2,
+        "price": 4850000,
+        "depositAmount": 3880000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 302,
+        "orderId": 30,
+        "productId": 40,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 2300000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 300,
+        "orderId": 30,
+        "amount": 6180000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN732575553",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-29T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 31,
+    "userId": 8,
+    "orderCode": "PRE-2026-0031",
+    "totalAmount": 8900000,
+    "requiredDeposit": 2100000,
+    "depositPaid": 2100000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Đỗ Minh H",
+    "phoneNumber": "0927120782",
+    "shippingAddress": "125 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 89,
+    "items": [
+      {
+        "id": 310,
+        "orderId": 31,
+        "productId": 7,
+        "quantity": 1,
+        "price": 3650000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 311,
+        "orderId": 31,
+        "productId": 38,
+        "quantity": 1,
+        "price": 5250000,
+        "depositAmount": 2100000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 310,
+        "orderId": 31,
+        "amount": 2100000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN454828188",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-06T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 32,
+    "userId": 10,
+    "orderCode": "PRE-2026-0032",
+    "totalAmount": 3200000,
+    "requiredDeposit": 960000,
+    "depositPaid": 960000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Khắc J",
+    "phoneNumber": "0987178340",
+    "shippingAddress": "750 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 32,
+    "items": [
+      {
+        "id": 320,
+        "orderId": 32,
+        "productId": 26,
+        "quantity": 1,
+        "price": 3200000,
+        "depositAmount": 960000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 320,
+        "orderId": 32,
+        "amount": 960000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN157812193",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 33,
+    "userId": 16,
+    "orderCode": "PRE-2026-0033",
+    "totalAmount": 6950000,
+    "requiredDeposit": 850000,
+    "depositPaid": 850000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 69,
+    "items": [
+      {
+        "id": 330,
+        "orderId": 33,
+        "productId": 11,
+        "quantity": 1,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 331,
+        "orderId": 33,
+        "productId": 27,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 332,
+        "orderId": 33,
+        "productId": 22,
+        "quantity": 1,
+        "price": 1700000,
+        "depositAmount": 850000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 330,
+        "orderId": 33,
+        "amount": 850000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN963085699",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 34,
+    "userId": 10,
+    "orderCode": "PRE-2026-0034",
+    "totalAmount": 10700000,
+    "requiredDeposit": 3210000,
+    "depositPaid": 3210000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Khắc J",
+    "phoneNumber": "0987178340",
+    "shippingAddress": "750 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 107,
+    "items": [
+      {
+        "id": 340,
+        "orderId": 34,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 340,
+        "orderId": 34,
+        "amount": 3210000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN529464728",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-14T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 35,
+    "userId": 17,
+    "orderCode": "PRE-2026-0035",
+    "totalAmount": 17750000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 17750000,
+    "status": "ORDERED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 177,
+    "items": [
+      {
+        "id": 350,
+        "orderId": 35,
+        "productId": 29,
+        "quantity": 2,
+        "price": 5050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 351,
+        "orderId": 35,
+        "productId": 27,
+        "quantity": 1,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 352,
+        "orderId": 35,
+        "productId": 17,
+        "quantity": 2,
+        "price": 2950000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 350,
+        "orderId": 35,
+        "amount": 17750000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN697349799",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-09T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 36,
+    "userId": 3,
+    "orderCode": "PRE-2026-0036",
+    "totalAmount": 14650000,
+    "requiredDeposit": 2300000,
+    "depositPaid": 2300000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 146,
+    "items": [
+      {
+        "id": 360,
+        "orderId": 36,
+        "productId": 1,
+        "quantity": 2,
+        "price": 2700000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 361,
+        "orderId": 36,
+        "productId": 11,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 362,
+        "orderId": 36,
+        "productId": 40,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 2300000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 360,
+        "orderId": 36,
+        "amount": 2300000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN791379041",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 37,
+    "userId": 12,
+    "orderCode": "PRE-2026-0037",
+    "totalAmount": 9900000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 9900000,
+    "status": "ORDERED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Trịnh Hữu L",
+    "phoneNumber": "0941352462",
+    "shippingAddress": "822 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 99,
+    "items": [
+      {
+        "id": 370,
+        "orderId": 37,
+        "productId": 13,
+        "quantity": 1,
+        "price": 3800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 371,
+        "orderId": 37,
+        "productId": 15,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 372,
+        "orderId": 37,
+        "productId": 31,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 370,
+        "orderId": 37,
+        "amount": 9900000,
+        "paymentMethod": "MOMO",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN698480329",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-05T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 38,
+    "userId": 16,
+    "orderCode": "PRE-2026-0038",
+    "totalAmount": 4400000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 4400000,
+    "status": "ORDERED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 44,
+    "items": [
+      {
+        "id": 380,
+        "orderId": 38,
+        "productId": 41,
+        "quantity": 2,
+        "price": 2200000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 380,
+        "orderId": 38,
+        "amount": 4400000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN500124217",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-22T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 39,
+    "userId": 21,
+    "orderCode": "PRE-2026-0039",
+    "totalAmount": 11500000,
+    "requiredDeposit": 3450000,
+    "depositPaid": 3450000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Văn U",
+    "phoneNumber": "0930772809",
+    "shippingAddress": "172 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 115,
+    "items": [
+      {
+        "id": 390,
+        "orderId": 39,
+        "productId": 44,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 3450000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 390,
+        "orderId": 39,
+        "amount": 3450000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN236598644",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 40,
+    "userId": 2,
+    "orderCode": "PRE-2026-0040",
+    "totalAmount": 10700000,
+    "requiredDeposit": 1960000,
+    "depositPaid": 1960000,
+    "remainingPaid": 0,
+    "status": "ORDERED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Thị B",
+    "phoneNumber": "0935644242",
+    "shippingAddress": "763 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 107,
+    "items": [
+      {
+        "id": 400,
+        "orderId": 40,
+        "productId": 43,
+        "quantity": 1,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 401,
+        "orderId": 40,
+        "productId": 18,
+        "quantity": 2,
+        "price": 2450000,
+        "depositAmount": 1960000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 400,
+        "orderId": 40,
+        "amount": 1960000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN166648817",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 41,
+    "userId": 23,
+    "orderCode": "PRE-2026-0041",
+    "totalAmount": 5350000,
+    "requiredDeposit": 1605000,
+    "depositPaid": 1605000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phạm Xuân W",
+    "phoneNumber": "0938438085",
+    "shippingAddress": "824 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 53,
+    "items": [
+      {
+        "id": 410,
+        "orderId": 41,
+        "productId": 8,
+        "quantity": 1,
+        "price": 5350000,
+        "depositAmount": 1605000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 410,
+        "orderId": 41,
+        "amount": 1605000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN570898525",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-22T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 42,
+    "userId": 3,
+    "orderCode": "PRE-2026-0042",
+    "totalAmount": 17150000,
+    "requiredDeposit": 2300000,
+    "depositPaid": 2300000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 171,
+    "items": [
+      {
+        "id": 420,
+        "orderId": 42,
+        "productId": 7,
+        "quantity": 2,
+        "price": 3650000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 421,
+        "orderId": 42,
+        "productId": 40,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 2300000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 422,
+        "orderId": 42,
+        "productId": 21,
+        "quantity": 2,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 420,
+        "orderId": 42,
+        "amount": 2300000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN879265993",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-06T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 43,
+    "userId": 21,
+    "orderCode": "PRE-2026-0043",
+    "totalAmount": 9250000,
+    "requiredDeposit": 980000,
+    "depositPaid": 980000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Văn U",
+    "phoneNumber": "0930772809",
+    "shippingAddress": "172 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 92,
+    "items": [
+      {
+        "id": 430,
+        "orderId": 43,
+        "productId": 18,
+        "quantity": 1,
+        "price": 2450000,
+        "depositAmount": 980000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 431,
+        "orderId": 43,
+        "productId": 15,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 432,
+        "orderId": 43,
+        "productId": 9,
+        "quantity": 1,
+        "price": 4000000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 430,
+        "orderId": 43,
+        "amount": 980000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN930500256",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-11T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 44,
+    "userId": 9,
+    "orderCode": "PRE-2026-0044",
+    "totalAmount": 19250000,
+    "requiredDeposit": 3975000,
+    "depositPaid": 3975000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 192,
+    "items": [
+      {
+        "id": 440,
+        "orderId": 44,
+        "productId": 28,
+        "quantity": 2,
+        "price": 2250000,
+        "depositAmount": 2250000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 441,
+        "orderId": 44,
+        "productId": 44,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 1725000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 442,
+        "orderId": 44,
+        "productId": 23,
+        "quantity": 2,
+        "price": 4500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 440,
+        "orderId": 44,
+        "amount": 3975000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN420081039",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 45,
+    "userId": 16,
+    "orderCode": "PRE-2026-0045",
+    "totalAmount": 3150000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 3150000,
+    "status": "SHIPPING",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 31,
+    "items": [
+      {
+        "id": 450,
+        "orderId": 45,
+        "productId": 19,
+        "quantity": 1,
+        "price": 3150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 450,
+        "orderId": 45,
+        "amount": 3150000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN187720389",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-29T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 46,
+    "userId": 26,
+    "orderCode": "PRE-2026-0046",
+    "totalAmount": 1700000,
+    "requiredDeposit": 850000,
+    "depositPaid": 850000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Thanh Z",
+    "phoneNumber": "0993889538",
+    "shippingAddress": "849 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 17,
+    "items": [
+      {
+        "id": 460,
+        "orderId": 46,
+        "productId": 22,
+        "quantity": 1,
+        "price": 1700000,
+        "depositAmount": 850000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 460,
+        "orderId": 46,
+        "amount": 850000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN868211350",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 47,
+    "userId": 20,
+    "orderCode": "PRE-2026-0047",
+    "totalAmount": 7200000,
+    "requiredDeposit": 1950000,
+    "depositPaid": 1950000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Vũ Hoàng T",
+    "phoneNumber": "0931360286",
+    "shippingAddress": "545 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 72,
+    "items": [
+      {
+        "id": 470,
+        "orderId": 47,
+        "productId": 36,
+        "quantity": 2,
+        "price": 1950000,
+        "depositAmount": 1950000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 471,
+        "orderId": 47,
+        "productId": 31,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 470,
+        "orderId": 47,
+        "amount": 1950000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN475254696",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-30T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 48,
+    "userId": 17,
+    "orderCode": "PRE-2026-0048",
+    "totalAmount": 22850000,
+    "requiredDeposit": 975000,
+    "depositPaid": 975000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 228,
+    "items": [
+      {
+        "id": 480,
+        "orderId": 48,
+        "productId": 5,
+        "quantity": 2,
+        "price": 5400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 481,
+        "orderId": 48,
+        "productId": 36,
+        "quantity": 1,
+        "price": 1950000,
+        "depositAmount": 975000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 482,
+        "orderId": 48,
+        "productId": 29,
+        "quantity": 2,
+        "price": 5050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 480,
+        "orderId": 48,
+        "amount": 975000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN574365693",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 49,
+    "userId": 14,
+    "orderCode": "PRE-2026-0049",
+    "totalAmount": 3250000,
+    "requiredDeposit": 1625000,
+    "depositPaid": 1625000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lý Hoài N",
+    "phoneNumber": "0926005687",
+    "shippingAddress": "874 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 32,
+    "items": [
+      {
+        "id": 490,
+        "orderId": 49,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 490,
+        "orderId": 49,
+        "amount": 1625000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN403184952",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-15T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 50,
+    "userId": 22,
+    "orderCode": "PRE-2026-0050",
+    "totalAmount": 8300000,
+    "requiredDeposit": 780000,
+    "depositPaid": 780000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Quốc V",
+    "phoneNumber": "0948779561",
+    "shippingAddress": "300 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 83,
+    "items": [
+      {
+        "id": 500,
+        "orderId": 50,
+        "productId": 39,
+        "quantity": 2,
+        "price": 1350000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 501,
+        "orderId": 50,
+        "productId": 37,
+        "quantity": 2,
+        "price": 1500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 502,
+        "orderId": 50,
+        "productId": 6,
+        "quantity": 1,
+        "price": 2600000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 500,
+        "orderId": 50,
+        "amount": 780000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN500247234",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-26T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 51,
+    "userId": 16,
+    "orderCode": "PRE-2026-0051",
+    "totalAmount": 4750000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 4750000,
+    "status": "SHIPPING",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 47,
+    "items": [
+      {
+        "id": 510,
+        "orderId": 51,
+        "productId": 3,
+        "quantity": 1,
+        "price": 4750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 510,
+        "orderId": 51,
+        "amount": 4750000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN713219340",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-30T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 52,
+    "userId": 7,
+    "orderCode": "PRE-2026-0052",
+    "totalAmount": 15400000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 15400000,
+    "status": "SHIPPING",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Hoàng Văn G",
+    "phoneNumber": "0918152059",
+    "shippingAddress": "773 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 154,
+    "items": [
+      {
+        "id": 520,
+        "orderId": 52,
+        "productId": 3,
+        "quantity": 2,
+        "price": 4750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 521,
+        "orderId": 52,
+        "productId": 17,
+        "quantity": 2,
+        "price": 2950000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 520,
+        "orderId": 52,
+        "amount": 15400000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN129096956",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-22T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 53,
+    "userId": 7,
+    "orderCode": "PRE-2026-0053",
+    "totalAmount": 8550000,
+    "requiredDeposit": 2300000,
+    "depositPaid": 2300000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Hoàng Văn G",
+    "phoneNumber": "0918152059",
+    "shippingAddress": "773 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 85,
+    "items": [
+      {
+        "id": 530,
+        "orderId": 53,
+        "productId": 15,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 531,
+        "orderId": 53,
+        "productId": 40,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 2300000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 530,
+        "orderId": 53,
+        "amount": 2300000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN267602790",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 54,
+    "userId": 17,
+    "orderCode": "PRE-2026-0054",
+    "totalAmount": 17300000,
+    "requiredDeposit": 3450000,
+    "depositPaid": 3450000,
+    "remainingPaid": 0,
+    "status": "SHIPPING",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 173,
+    "items": [
+      {
+        "id": 540,
+        "orderId": 54,
+        "productId": 43,
+        "quantity": 1,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 541,
+        "orderId": 54,
+        "productId": 44,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 3450000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 540,
+        "orderId": 54,
+        "amount": 3450000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN595215367",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-06T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 55,
+    "userId": 8,
+    "orderCode": "PRE-2026-0055",
+    "totalAmount": 4500000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 4500000,
+    "status": "SHIPPING",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Đỗ Minh H",
+    "phoneNumber": "0927120782",
+    "shippingAddress": "125 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 45,
+    "items": [
+      {
+        "id": 550,
+        "orderId": 55,
+        "productId": 23,
+        "quantity": 1,
+        "price": 4500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 550,
+        "orderId": 55,
+        "amount": 4500000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN679872143",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-12T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 56,
+    "userId": 16,
+    "orderCode": "PRE-2026-0056",
+    "totalAmount": 10650000,
+    "requiredDeposit": 1820000,
+    "depositPaid": 1820000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 106,
+    "items": [
+      {
+        "id": 560,
+        "orderId": 56,
+        "productId": 10,
+        "quantity": 1,
+        "price": 4550000,
+        "depositAmount": 1820000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 561,
+        "orderId": 56,
+        "productId": 7,
+        "quantity": 1,
+        "price": 3650000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 562,
+        "orderId": 56,
+        "productId": 49,
+        "quantity": 1,
+        "price": 2450000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 560,
+        "orderId": 56,
+        "amount": 1820000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN385976391",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-20T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 57,
+    "userId": 5,
+    "orderCode": "PRE-2026-0057",
+    "totalAmount": 13250000,
+    "requiredDeposit": 2300000,
+    "depositPaid": 2300000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Võ Hoàng E",
+    "phoneNumber": "0972041818",
+    "shippingAddress": "740 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 132,
+    "items": [
+      {
+        "id": 570,
+        "orderId": 57,
+        "productId": 9,
+        "quantity": 1,
+        "price": 4000000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 571,
+        "orderId": 57,
+        "productId": 40,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 2300000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 572,
+        "orderId": 57,
+        "productId": 27,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 570,
+        "orderId": 57,
+        "amount": 2300000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN380760353",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-02T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 58,
+    "userId": 21,
+    "orderCode": "PRE-2026-0058",
+    "totalAmount": 10750000,
+    "requiredDeposit": 2475000,
+    "depositPaid": 2475000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Văn U",
+    "phoneNumber": "0930772809",
+    "shippingAddress": "172 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 107,
+    "items": [
+      {
+        "id": 580,
+        "orderId": 58,
+        "productId": 22,
+        "quantity": 1,
+        "price": 1700000,
+        "depositAmount": 850000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 581,
+        "orderId": 58,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 582,
+        "orderId": 58,
+        "productId": 43,
+        "quantity": 1,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 580,
+        "orderId": 58,
+        "amount": 2475000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN970123449",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-09T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 59,
+    "userId": 9,
+    "orderCode": "PRE-2026-0059",
+    "totalAmount": 12650000,
+    "requiredDeposit": 3795000,
+    "depositPaid": 3795000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 126,
+    "items": [
+      {
+        "id": 590,
+        "orderId": 59,
+        "productId": 44,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 3450000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 591,
+        "orderId": 59,
+        "productId": 12,
+        "quantity": 1,
+        "price": 1150000,
+        "depositAmount": 345000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 590,
+        "orderId": 59,
+        "amount": 3795000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN252903372",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-28T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 60,
+    "userId": 15,
+    "orderCode": "PRE-2026-0060",
+    "totalAmount": 11650000,
+    "requiredDeposit": 4545000,
+    "depositPaid": 4545000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Ngô Bảo O",
+    "phoneNumber": "0998560918",
+    "shippingAddress": "792 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 116,
+    "items": [
+      {
+        "id": 600,
+        "orderId": 60,
+        "productId": 38,
+        "quantity": 2,
+        "price": 5250000,
+        "depositAmount": 4200000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 601,
+        "orderId": 60,
+        "productId": 12,
+        "quantity": 1,
+        "price": 1150000,
+        "depositAmount": 345000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 600,
+        "orderId": 60,
+        "amount": 4545000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN554323250",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 61,
+    "userId": 13,
+    "orderCode": "PRE-2026-0061",
+    "totalAmount": 11600000,
+    "requiredDeposit": 1700000,
+    "depositPaid": 1700000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Bùi Thế M",
+    "phoneNumber": "0940857568",
+    "shippingAddress": "61 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 116,
+    "items": [
+      {
+        "id": 610,
+        "orderId": 61,
+        "productId": 22,
+        "quantity": 2,
+        "price": 1700000,
+        "depositAmount": 1700000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 611,
+        "orderId": 61,
+        "productId": 5,
+        "quantity": 1,
+        "price": 5400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 612,
+        "orderId": 61,
+        "productId": 47,
+        "quantity": 2,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 610,
+        "orderId": 61,
+        "amount": 1700000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN539686338",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 62,
+    "userId": 5,
+    "orderCode": "PRE-2026-0062",
+    "totalAmount": 6450000,
+    "requiredDeposit": 2575000,
+    "depositPaid": 2575000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Võ Hoàng E",
+    "phoneNumber": "0972041818",
+    "shippingAddress": "740 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 64,
+    "items": [
+      {
+        "id": 620,
+        "orderId": 62,
+        "productId": 28,
+        "quantity": 1,
+        "price": 2250000,
+        "depositAmount": 1125000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 621,
+        "orderId": 62,
+        "productId": 12,
+        "quantity": 2,
+        "price": 1150000,
+        "depositAmount": 690000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 622,
+        "orderId": 62,
+        "productId": 48,
+        "quantity": 1,
+        "price": 1900000,
+        "depositAmount": 760000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 620,
+        "orderId": 62,
+        "amount": 2575000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN146432814",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 63,
+    "userId": 9,
+    "orderCode": "PRE-2026-0063",
+    "totalAmount": 5100000,
+    "requiredDeposit": 2040000,
+    "depositPaid": 2040000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 51,
+    "items": [
+      {
+        "id": 630,
+        "orderId": 63,
+        "productId": 46,
+        "quantity": 1,
+        "price": 5100000,
+        "depositAmount": 2040000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 630,
+        "orderId": 63,
+        "amount": 2040000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN256127986",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 64,
+    "userId": 2,
+    "orderCode": "PRE-2026-0064",
+    "totalAmount": 8600000,
+    "requiredDeposit": 975000,
+    "depositPaid": 975000,
+    "remainingPaid": 0,
+    "status": "ARRIVED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Trần Thị B",
+    "phoneNumber": "0935644242",
+    "shippingAddress": "763 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 86,
+    "items": [
+      {
+        "id": 640,
+        "orderId": 64,
+        "productId": 19,
+        "quantity": 1,
+        "price": 3150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 641,
+        "orderId": 64,
+        "productId": 11,
+        "quantity": 2,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 642,
+        "orderId": 64,
+        "productId": 36,
+        "quantity": 1,
+        "price": 1950000,
+        "depositAmount": 975000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 640,
+        "orderId": 64,
+        "amount": 975000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN907818892",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 65,
+    "userId": 20,
+    "orderCode": "PRE-2026-0065",
+    "totalAmount": 5500000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 5500000,
+    "status": "ARRIVED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Vũ Hoàng T",
+    "phoneNumber": "0931360286",
+    "shippingAddress": "545 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 55,
+    "items": [
+      {
+        "id": 650,
+        "orderId": 65,
+        "productId": 45,
+        "quantity": 1,
+        "price": 5500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 650,
+        "orderId": 65,
+        "amount": 5500000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN585807426",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-13T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 66,
+    "userId": 18,
+    "orderCode": "PRE-2026-0066",
+    "totalAmount": 6600000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 6600000,
+    "status": "READY",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lương Đức R",
+    "phoneNumber": "0916781415",
+    "shippingAddress": "808 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 66,
+    "items": [
+      {
+        "id": 660,
+        "orderId": 66,
+        "productId": 31,
+        "quantity": 2,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 660,
+        "orderId": 66,
+        "amount": 6600000,
+        "paymentMethod": "MOMO",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN534010154",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-30T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 67,
+    "userId": 6,
+    "orderCode": "PRE-2026-0067",
+    "totalAmount": 14650000,
+    "requiredDeposit": 5860000,
+    "depositPaid": 5860000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Thị F",
+    "phoneNumber": "0947672537",
+    "shippingAddress": "328 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 146,
+    "items": [
+      {
+        "id": 670,
+        "orderId": 67,
+        "productId": 30,
+        "quantity": 2,
+        "price": 5050000,
+        "depositAmount": 4040000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 671,
+        "orderId": 67,
+        "productId": 10,
+        "quantity": 1,
+        "price": 4550000,
+        "depositAmount": 1820000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 670,
+        "orderId": 67,
+        "amount": 5860000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN899748656",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 68,
+    "userId": 18,
+    "orderCode": "PRE-2026-0068",
+    "totalAmount": 13400000,
+    "requiredDeposit": 3250000,
+    "depositPaid": 3250000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lương Đức R",
+    "phoneNumber": "0916781415",
+    "shippingAddress": "808 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 134,
+    "items": [
+      {
+        "id": 680,
+        "orderId": 68,
+        "productId": 33,
+        "quantity": 1,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 681,
+        "orderId": 68,
+        "productId": 20,
+        "quantity": 2,
+        "price": 3250000,
+        "depositAmount": 3250000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 682,
+        "orderId": 68,
+        "productId": 27,
+        "quantity": 1,
+        "price": 1750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 680,
+        "orderId": 68,
+        "amount": 3250000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN691596732",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-14T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 69,
+    "userId": 10,
+    "orderCode": "PRE-2026-0069",
+    "totalAmount": 7650000,
+    "requiredDeposit": 2250000,
+    "depositPaid": 2250000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Khắc J",
+    "phoneNumber": "0987178340",
+    "shippingAddress": "750 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 76,
+    "items": [
+      {
+        "id": 690,
+        "orderId": 69,
+        "productId": 28,
+        "quantity": 2,
+        "price": 2250000,
+        "depositAmount": 2250000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 691,
+        "orderId": 69,
+        "productId": 19,
+        "quantity": 1,
+        "price": 3150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 690,
+        "orderId": 69,
+        "amount": 2250000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN433162963",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-29T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 70,
+    "userId": 3,
+    "orderCode": "PRE-2026-0070",
+    "totalAmount": 5100000,
+    "requiredDeposit": 2040000,
+    "depositPaid": 2040000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 51,
+    "items": [
+      {
+        "id": 700,
+        "orderId": 70,
+        "productId": 46,
+        "quantity": 1,
+        "price": 5100000,
+        "depositAmount": 2040000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 700,
+        "orderId": 70,
+        "amount": 2040000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN940377018",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-25T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 71,
+    "userId": 22,
+    "orderCode": "PRE-2026-0071",
+    "totalAmount": 15550000,
+    "requiredDeposit": 5150000,
+    "depositPaid": 5150000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Quốc V",
+    "phoneNumber": "0948779561",
+    "shippingAddress": "300 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 155,
+    "items": [
+      {
+        "id": 710,
+        "orderId": 71,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 711,
+        "orderId": 71,
+        "productId": 32,
+        "quantity": 1,
+        "price": 4850000,
+        "depositAmount": 1940000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 710,
+        "orderId": 71,
+        "amount": 5150000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN250030317",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-15T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 72,
+    "userId": 23,
+    "orderCode": "PRE-2026-0072",
+    "totalAmount": 11100000,
+    "requiredDeposit": 4240000,
+    "depositPaid": 4240000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phạm Xuân W",
+    "phoneNumber": "0938438085",
+    "shippingAddress": "824 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 111,
+    "items": [
+      {
+        "id": 720,
+        "orderId": 72,
+        "productId": 10,
+        "quantity": 2,
+        "price": 4550000,
+        "depositAmount": 3640000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 721,
+        "orderId": 72,
+        "productId": 42,
+        "quantity": 1,
+        "price": 2000000,
+        "depositAmount": 600000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 720,
+        "orderId": 72,
+        "amount": 4240000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN131416428",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-11T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 73,
+    "userId": 16,
+    "orderCode": "PRE-2026-0073",
+    "totalAmount": 7100000,
+    "requiredDeposit": 975000,
+    "depositPaid": 975000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Dương Hồng P",
+    "phoneNumber": "0988567572",
+    "shippingAddress": "244 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 71,
+    "items": [
+      {
+        "id": 730,
+        "orderId": 73,
+        "productId": 36,
+        "quantity": 1,
+        "price": 1950000,
+        "depositAmount": 975000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 731,
+        "orderId": 73,
+        "productId": 37,
+        "quantity": 1,
+        "price": 1500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 732,
+        "orderId": 73,
+        "productId": 7,
+        "quantity": 1,
+        "price": 3650000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 730,
+        "orderId": 73,
+        "amount": 975000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN525342531",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 74,
+    "userId": 9,
+    "orderCode": "PRE-2026-0074",
+    "totalAmount": 19600000,
+    "requiredDeposit": 4130000,
+    "depositPaid": 4130000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Phan Thanh I",
+    "phoneNumber": "0979001316",
+    "shippingAddress": "994 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 196,
+    "items": [
+      {
+        "id": 740,
+        "orderId": 74,
+        "productId": 2,
+        "quantity": 2,
+        "price": 1300000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 741,
+        "orderId": 74,
+        "productId": 33,
+        "quantity": 2,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 742,
+        "orderId": 74,
+        "productId": 14,
+        "quantity": 2,
+        "price": 3350000,
+        "depositAmount": 3350000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 740,
+        "orderId": 74,
+        "amount": 4130000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN788360165",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-26T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 75,
+    "userId": 14,
+    "orderCode": "PRE-2026-0075",
+    "totalAmount": 9300000,
+    "requiredDeposit": 1170000,
+    "depositPaid": 1170000,
+    "remainingPaid": 0,
+    "status": "READY",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Lý Hoài N",
+    "phoneNumber": "0926005687",
+    "shippingAddress": "874 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 93,
+    "items": [
+      {
+        "id": 750,
+        "orderId": 75,
+        "productId": 2,
+        "quantity": 1,
+        "price": 1300000,
+        "depositAmount": 390000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 751,
+        "orderId": 75,
+        "productId": 1,
+        "quantity": 2,
+        "price": 2700000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 752,
+        "orderId": 75,
+        "productId": 6,
+        "quantity": 1,
+        "price": 2600000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 750,
+        "orderId": 75,
+        "amount": 1170000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN808101666",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-06T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 76,
+    "userId": 24,
+    "orderCode": "PRE-2026-0076",
+    "totalAmount": 6500000,
+    "requiredDeposit": 1950000,
+    "depositPaid": 1950000,
+    "remainingPaid": 4550000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Bùi Văn X",
+    "phoneNumber": "0964439832",
+    "shippingAddress": "526 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 65,
+    "items": [
+      {
+        "id": 760,
+        "orderId": 76,
+        "productId": 24,
+        "quantity": 1,
+        "price": 2500000,
+        "depositAmount": 750000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 761,
+        "orderId": 76,
+        "productId": 42,
+        "quantity": 2,
+        "price": 2000000,
+        "depositAmount": 1200000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 760,
+        "orderId": 76,
+        "amount": 1950000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN541606678",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 761,
+        "orderId": 76,
+        "amount": 4550000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN599427823",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 77,
+    "userId": 8,
+    "orderCode": "PRE-2026-0077",
+    "totalAmount": 3250000,
+    "requiredDeposit": 1625000,
+    "depositPaid": 1625000,
+    "remainingPaid": 1625000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Đỗ Minh H",
+    "phoneNumber": "0927120782",
+    "shippingAddress": "125 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 32,
+    "items": [
+      {
+        "id": 770,
+        "orderId": 77,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 770,
+        "orderId": 77,
+        "amount": 1625000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN932178870",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 771,
+        "orderId": 77,
+        "amount": 1625000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN435164837",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-24T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 78,
+    "userId": 19,
+    "orderCode": "PRE-2026-0078",
+    "totalAmount": 14950000,
+    "requiredDeposit": 1625000,
+    "depositPaid": 1625000,
+    "remainingPaid": 13325000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Phùng Hải S",
+    "phoneNumber": "0921870697",
+    "shippingAddress": "658 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 149,
+    "items": [
+      {
+        "id": 780,
+        "orderId": 78,
+        "productId": 15,
+        "quantity": 1,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 781,
+        "orderId": 78,
+        "productId": 33,
+        "quantity": 2,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 782,
+        "orderId": 78,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 780,
+        "orderId": 78,
+        "amount": 1625000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN758354787",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 781,
+        "orderId": 78,
+        "amount": 13325000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN521477491",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-09T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 79,
+    "userId": 14,
+    "orderCode": "PRE-2026-0079",
+    "totalAmount": 24900000,
+    "requiredDeposit": 1000000,
+    "depositPaid": 1000000,
+    "remainingPaid": 23900000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lý Hoài N",
+    "phoneNumber": "0926005687",
+    "shippingAddress": "874 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 249,
+    "items": [
+      {
+        "id": 790,
+        "orderId": 79,
+        "productId": 43,
+        "quantity": 2,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 791,
+        "orderId": 79,
+        "productId": 16,
+        "quantity": 1,
+        "price": 2500000,
+        "depositAmount": 1000000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 792,
+        "orderId": 79,
+        "productId": 5,
+        "quantity": 2,
+        "price": 5400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 790,
+        "orderId": 79,
+        "amount": 1000000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN981394815",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 791,
+        "orderId": 79,
+        "amount": 23900000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN403362829",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-04T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 80,
+    "userId": 1,
+    "orderCode": "PRE-2026-0080",
+    "totalAmount": 4500000,
+    "requiredDeposit": 2250000,
+    "depositPaid": 2250000,
+    "remainingPaid": 2250000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Nguyễn Văn A",
+    "phoneNumber": "0911068904",
+    "shippingAddress": "123 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 45,
+    "items": [
+      {
+        "id": 800,
+        "orderId": 80,
+        "productId": 28,
+        "quantity": 2,
+        "price": 2250000,
+        "depositAmount": 2250000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 800,
+        "orderId": 80,
+        "amount": 2250000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN297373938",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 801,
+        "orderId": 80,
+        "amount": 2250000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN702432877",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 81,
+    "userId": 5,
+    "orderCode": "PRE-2026-0081",
+    "totalAmount": 12350000,
+    "requiredDeposit": 5265000,
+    "depositPaid": 5265000,
+    "remainingPaid": 7085000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Võ Hoàng E",
+    "phoneNumber": "0972041818",
+    "shippingAddress": "740 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 123,
+    "items": [
+      {
+        "id": 810,
+        "orderId": 81,
+        "productId": 20,
+        "quantity": 1,
+        "price": 3250000,
+        "depositAmount": 1625000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 811,
+        "orderId": 81,
+        "productId": 10,
+        "quantity": 2,
+        "price": 4550000,
+        "depositAmount": 3640000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 810,
+        "orderId": 81,
+        "amount": 5265000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN423295103",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 811,
+        "orderId": 81,
+        "amount": 7085000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN889122110",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-14T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 82,
+    "userId": 25,
+    "orderCode": "PRE-2026-0082",
+    "totalAmount": 19350000,
+    "requiredDeposit": 6420000,
+    "depositPaid": 6420000,
+    "remainingPaid": 12930000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Trần Như Y",
+    "phoneNumber": "0933268906",
+    "shippingAddress": "463 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 193,
+    "items": [
+      {
+        "id": 820,
+        "orderId": 82,
+        "productId": 10,
+        "quantity": 1,
+        "price": 4550000,
+        "depositAmount": 1820000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 821,
+        "orderId": 82,
+        "productId": 31,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 822,
+        "orderId": 82,
+        "productId": 40,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 4600000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 820,
+        "orderId": 82,
+        "amount": 6420000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN849441319",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 821,
+        "orderId": 82,
+        "amount": 12930000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN442015691",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-10T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 83,
+    "userId": 19,
+    "orderCode": "PRE-2026-0083",
+    "totalAmount": 19750000,
+    "requiredDeposit": 4410000,
+    "depositPaid": 4410000,
+    "remainingPaid": 15340000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Phùng Hải S",
+    "phoneNumber": "0921870697",
+    "shippingAddress": "658 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 197,
+    "items": [
+      {
+        "id": 830,
+        "orderId": 83,
+        "productId": 44,
+        "quantity": 2,
+        "price": 5750000,
+        "depositAmount": 3450000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 831,
+        "orderId": 83,
+        "productId": 26,
+        "quantity": 1,
+        "price": 3200000,
+        "depositAmount": 960000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 832,
+        "orderId": 83,
+        "productId": 29,
+        "quantity": 1,
+        "price": 5050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 830,
+        "orderId": 83,
+        "amount": 4410000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN872013961",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 831,
+        "orderId": 83,
+        "amount": 15340000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN836980078",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-05T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 84,
+    "userId": 13,
+    "orderCode": "PRE-2026-0084",
+    "totalAmount": 24100000,
+    "requiredDeposit": 8240000,
+    "depositPaid": 8240000,
+    "remainingPaid": 15860000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Bùi Thế M",
+    "phoneNumber": "0940857568",
+    "shippingAddress": "61 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 241,
+    "items": [
+      {
+        "id": 840,
+        "orderId": 84,
+        "productId": 4,
+        "quantity": 1,
+        "price": 3300000,
+        "depositAmount": 990000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 841,
+        "orderId": 84,
+        "productId": 30,
+        "quantity": 2,
+        "price": 5050000,
+        "depositAmount": 4040000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 842,
+        "orderId": 84,
+        "productId": 8,
+        "quantity": 2,
+        "price": 5350000,
+        "depositAmount": 3210000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 840,
+        "orderId": 84,
+        "amount": 8240000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN846490089",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 841,
+        "orderId": 84,
+        "amount": 15860000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN219456423",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 85,
+    "userId": 17,
+    "orderCode": "PRE-2026-0085",
+    "totalAmount": 20100000,
+    "requiredDeposit": 3640000,
+    "depositPaid": 3640000,
+    "remainingPaid": 16460000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Trần Vĩnh Q",
+    "phoneNumber": "0995524804",
+    "shippingAddress": "352 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 201,
+    "items": [
+      {
+        "id": 850,
+        "orderId": 85,
+        "productId": 45,
+        "quantity": 2,
+        "price": 5500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 851,
+        "orderId": 85,
+        "productId": 10,
+        "quantity": 2,
+        "price": 4550000,
+        "depositAmount": 3640000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 850,
+        "orderId": 85,
+        "amount": 3640000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN655464879",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 851,
+        "orderId": 85,
+        "amount": 16460000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN147124262",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 86,
+    "userId": 18,
+    "orderCode": "PRE-2026-0086",
+    "totalAmount": 16600000,
+    "requiredDeposit": 1500000,
+    "depositPaid": 1500000,
+    "remainingPaid": 15100000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lương Đức R",
+    "phoneNumber": "0916781415",
+    "shippingAddress": "808 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 166,
+    "items": [
+      {
+        "id": 860,
+        "orderId": 86,
+        "productId": 24,
+        "quantity": 2,
+        "price": 2500000,
+        "depositAmount": 1500000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 861,
+        "orderId": 86,
+        "productId": 43,
+        "quantity": 2,
+        "price": 5800000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 860,
+        "orderId": 86,
+        "amount": 1500000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN967871992",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 861,
+        "orderId": 86,
+        "amount": 15100000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN857706265",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-18T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 87,
+    "userId": 19,
+    "orderCode": "PRE-2026-0087",
+    "totalAmount": 4500000,
+    "requiredDeposit": 2250000,
+    "depositPaid": 2250000,
+    "remainingPaid": 2250000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Phùng Hải S",
+    "phoneNumber": "0921870697",
+    "shippingAddress": "658 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 45,
+    "items": [
+      {
+        "id": 870,
+        "orderId": 87,
+        "productId": 28,
+        "quantity": 2,
+        "price": 2250000,
+        "depositAmount": 2250000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 870,
+        "orderId": 87,
+        "amount": 2250000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN933027824",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 871,
+        "orderId": 87,
+        "amount": 2250000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN929294115",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-19T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 88,
+    "userId": 11,
+    "orderCode": "PRE-2026-0088",
+    "totalAmount": 14500000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 14500000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Đặng Ngọc K",
+    "phoneNumber": "0979115056",
+    "shippingAddress": "483 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 145,
+    "items": [
+      {
+        "id": 880,
+        "orderId": 88,
+        "productId": 21,
+        "quantity": 2,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 881,
+        "orderId": 88,
+        "productId": 41,
+        "quantity": 1,
+        "price": 2200000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 882,
+        "orderId": 88,
+        "productId": 35,
+        "quantity": 2,
+        "price": 4100000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 880,
+        "orderId": 88,
+        "amount": 14500000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN903189919",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-07T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 89,
+    "userId": 1,
+    "orderCode": "PRE-2026-0089",
+    "totalAmount": 12900000,
+    "requiredDeposit": 780000,
+    "depositPaid": 780000,
+    "remainingPaid": 12120000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Nguyễn Văn A",
+    "phoneNumber": "0911068904",
+    "shippingAddress": "123 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 129,
+    "items": [
+      {
+        "id": 890,
+        "orderId": 89,
+        "productId": 33,
+        "quantity": 2,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 891,
+        "orderId": 89,
+        "productId": 2,
+        "quantity": 2,
+        "price": 1300000,
+        "depositAmount": 780000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 890,
+        "orderId": 89,
+        "amount": 780000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN790483175",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 891,
+        "orderId": 89,
+        "amount": 12120000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN642738654",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-27T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 90,
+    "userId": 1,
+    "orderCode": "PRE-2026-0090",
+    "totalAmount": 13700000,
+    "requiredDeposit": 600000,
+    "depositPaid": 600000,
+    "remainingPaid": 13100000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Nguyễn Văn A",
+    "phoneNumber": "0911068904",
+    "shippingAddress": "123 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 137,
+    "items": [
+      {
+        "id": 900,
+        "orderId": 90,
+        "productId": 42,
+        "quantity": 1,
+        "price": 2000000,
+        "depositAmount": 600000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 901,
+        "orderId": 90,
+        "productId": 41,
+        "quantity": 1,
+        "price": 2200000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 902,
+        "orderId": 90,
+        "productId": 3,
+        "quantity": 2,
+        "price": 4750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 900,
+        "orderId": 90,
+        "amount": 600000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN191075127",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 901,
+        "orderId": 90,
+        "amount": 13100000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN591577497",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-18T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 91,
+    "userId": 21,
+    "orderCode": "PRE-2026-0091",
+    "totalAmount": 7150000,
+    "requiredDeposit": 1725000,
+    "depositPaid": 1725000,
+    "remainingPaid": 5425000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lê Văn U",
+    "phoneNumber": "0930772809",
+    "shippingAddress": "172 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 71,
+    "items": [
+      {
+        "id": 910,
+        "orderId": 91,
+        "productId": 44,
+        "quantity": 1,
+        "price": 5750000,
+        "depositAmount": 1725000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 911,
+        "orderId": 91,
+        "productId": 15,
+        "quantity": 1,
+        "price": 1400000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 910,
+        "orderId": 91,
+        "amount": 1725000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN132725107",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 911,
+        "orderId": 91,
+        "amount": 5425000,
+        "paymentMethod": "MOMO",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN857544366",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-22T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 92,
+    "userId": 3,
+    "orderCode": "PRE-2026-0092",
+    "totalAmount": 2700000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 2700000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 27,
+    "items": [
+      {
+        "id": 920,
+        "orderId": 92,
+        "productId": 1,
+        "quantity": 1,
+        "price": 2700000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 920,
+        "orderId": 92,
+        "amount": 2700000,
+        "paymentMethod": "COD",
+        "paymentType": "FULL_PAYMENT",
+        "transactionId": "TXN445571691",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-23T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 93,
+    "userId": 7,
+    "orderCode": "PRE-2026-0093",
+    "totalAmount": 14950000,
+    "requiredDeposit": 4080000,
+    "depositPaid": 4080000,
+    "remainingPaid": 10870000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Hoàng Văn G",
+    "phoneNumber": "0918152059",
+    "shippingAddress": "773 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 149,
+    "items": [
+      {
+        "id": 930,
+        "orderId": 93,
+        "productId": 46,
+        "quantity": 2,
+        "price": 5100000,
+        "depositAmount": 4080000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 931,
+        "orderId": 93,
+        "productId": 3,
+        "quantity": 1,
+        "price": 4750000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [
+      {
+        "id": 930,
+        "orderId": 93,
+        "amount": 4080000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN892930909",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 931,
+        "orderId": 93,
+        "amount": 10870000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN273225950",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 94,
+    "userId": 3,
+    "orderCode": "PRE-2026-0094",
+    "totalAmount": 5100000,
+    "requiredDeposit": 2040000,
+    "depositPaid": 2040000,
+    "remainingPaid": 3060000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 51,
+    "items": [
+      {
+        "id": 940,
+        "orderId": 94,
+        "productId": 46,
+        "quantity": 1,
+        "price": 5100000,
+        "depositAmount": 2040000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 940,
+        "orderId": 94,
+        "amount": 2040000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN855200351",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 941,
+        "orderId": 94,
+        "amount": 3060000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN640080230",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-21T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 95,
+    "userId": 5,
+    "orderCode": "PRE-2026-0095",
+    "totalAmount": 6400000,
+    "requiredDeposit": 1920000,
+    "depositPaid": 1920000,
+    "remainingPaid": 4480000,
+    "status": "COMPLETED",
+    "paymentStatus": "FULLY_PAID",
+    "recipientName": "Võ Hoàng E",
+    "phoneNumber": "0972041818",
+    "shippingAddress": "740 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 64,
+    "items": [
+      {
+        "id": 950,
+        "orderId": 95,
+        "productId": 26,
+        "quantity": 2,
+        "price": 3200000,
+        "depositAmount": 1920000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 950,
+        "orderId": 95,
+        "amount": 1920000,
+        "paymentMethod": "MOMO",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN496891136",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      },
+      {
+        "id": 951,
+        "orderId": 95,
+        "amount": 4480000,
+        "paymentMethod": "COD",
+        "paymentType": "REMAINING",
+        "transactionId": "TXN770047446",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-18T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-27T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 96,
+    "userId": 22,
+    "orderCode": "PRE-2026-0096",
+    "totalAmount": 17050000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "CANCELLED",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Nguyễn Quốc V",
+    "phoneNumber": "0948779561",
+    "shippingAddress": "300 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "notes": "Giao hàng giờ hành chính. Alo trước 15p.",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 170,
+    "items": [
+      {
+        "id": 960,
+        "orderId": 96,
+        "productId": 9,
+        "quantity": 1,
+        "price": 4000000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 961,
+        "orderId": 96,
+        "productId": 45,
+        "quantity": 2,
+        "price": 5500000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      },
+      {
+        "id": 962,
+        "orderId": 96,
+        "productId": 21,
+        "quantity": 1,
+        "price": 2050000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-07-08T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 97,
+    "userId": 3,
+    "orderCode": "PRE-2026-0097",
+    "totalAmount": 2450000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "CANCELLED",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 24,
+    "items": [
+      {
+        "id": 970,
+        "orderId": 97,
+        "productId": 49,
+        "quantity": 1,
+        "price": 2450000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-20T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 98,
+    "userId": 3,
+    "orderCode": "PRE-2026-0098",
+    "totalAmount": 10300000,
+    "requiredDeposit": 0,
+    "depositPaid": 0,
+    "remainingPaid": 0,
+    "status": "CANCELLED",
+    "paymentStatus": "UNPAID",
+    "recipientName": "Lê Hoàng C",
+    "phoneNumber": "0969483508",
+    "shippingAddress": "69 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 103,
+    "items": [
+      {
+        "id": 980,
+        "orderId": 98,
+        "productId": 33,
+        "quantity": 2,
+        "price": 5150000,
+        "depositAmount": 0,
+        "type": "AVAILABLE"
+      }
+    ],
+    "payments": [],
+    "createdAt": "2026-06-24T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 99,
+    "userId": 20,
+    "orderCode": "PRE-2026-0099",
+    "totalAmount": 4000000,
+    "requiredDeposit": 2000000,
+    "depositPaid": 2000000,
+    "remainingPaid": 0,
+    "status": "REFUNDED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Vũ Hoàng T",
+    "phoneNumber": "0931360286",
+    "shippingAddress": "545 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 40,
+    "items": [
+      {
+        "id": 990,
+        "orderId": 99,
+        "productId": 50,
+        "quantity": 2,
+        "price": 2000000,
+        "depositAmount": 2000000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 990,
+        "orderId": 99,
+        "amount": 2000000,
+        "paymentMethod": "ZALOPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN191675764",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-07-15T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  },
+  {
+    "id": 100,
+    "userId": 22,
+    "orderCode": "PRE-2026-0100",
+    "totalAmount": 15200000,
+    "requiredDeposit": 5560000,
+    "depositPaid": 5560000,
+    "remainingPaid": 0,
+    "status": "REFUNDED",
+    "paymentStatus": "PARTIALLY_PAID",
+    "recipientName": "Nguyễn Quốc V",
+    "phoneNumber": "0948779561",
+    "shippingAddress": "300 Đường Láng, Phường Láng Hạ, Quận Đống Đa, Hà Nội",
+    "rewardPointsUsed": 0,
+    "rewardPointsEarned": 152,
+    "items": [
+      {
+        "id": 1000,
+        "orderId": 100,
+        "productId": 6,
+        "quantity": 2,
+        "price": 2600000,
+        "depositAmount": 1560000,
+        "type": "PREORDER"
+      },
+      {
+        "id": 1001,
+        "orderId": 100,
+        "productId": 34,
+        "quantity": 2,
+        "price": 5000000,
+        "depositAmount": 4000000,
+        "type": "PREORDER"
+      }
+    ],
+    "payments": [
+      {
+        "id": 1000,
+        "orderId": 100,
+        "amount": 5560000,
+        "paymentMethod": "VNPAY",
+        "paymentType": "DEPOSIT",
+        "transactionId": "TXN206645047",
+        "status": "SUCCESS",
+        "createdAt": "2026-07-05T04:57:09.997Z"
+      }
+    ],
+    "createdAt": "2026-06-25T04:57:09.997Z",
+    "updatedAt": "2026-07-20T04:57:09.997Z"
+  }
+]
