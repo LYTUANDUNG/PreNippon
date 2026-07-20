@@ -7,6 +7,10 @@ export const userApi = {
     return apiClient.post<{ user: User; token: string }>('/auth/login', { email, password });
   },
 
+  register(name: string, email: string): Promise<ApiResponse<{ user: User; token: string }>> {
+    return apiClient.post<{ user: User; token: string }>('/auth/register', { name, email });
+  },
+
   getUsers(): Promise<ApiResponse<User[]>> {
     return apiClient.get<User[]>('/users');
   },

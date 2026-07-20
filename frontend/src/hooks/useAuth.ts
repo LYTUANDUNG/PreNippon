@@ -20,6 +20,13 @@ export const useAuth = () => {
     },
   });
 
+  const registerMutation = useMutation({
+    mutationFn: ({ name, email }: any) => UserService.register(name, email),
+    onSuccess: (data) => {
+      storeLogin(data.user, data.token);
+    },
+  });
+
   const updateUserMutation = useMutation({
     mutationFn: ({ id, user }: { id: number; user: Partial<User> }) =>
       UserService.updateUser(id, user),
@@ -36,6 +43,8 @@ export const useAuth = () => {
     isLoadingUsers: usersQuery.isLoading,
     login: loginMutation.mutateAsync,
     isLoggingIn: loginMutation.isPending,
+    register: registerMutation.mutateAsync,
+    isRegistering: registerMutation.isPending,
     logout: storeLogout,
     updateUser: updateUserMutation.mutateAsync,
     isUpdatingUser: updateUserMutation.isPending,

@@ -34,7 +34,7 @@ export default function Header() {
   const cartCount = useCartStore((state) => state.items.reduce((sum, item) => sum + item.quantity, 0));
   const wishlistCount = useWishlistStore((state) => state.items.length);
   const { theme, toggleTheme } = useThemeStore();
-  const { user, login, logout, isAuthenticated, isLoggingIn } = useAuth();
+  const { user, login, register, logout, isAuthenticated, isLoggingIn, isRegistering } = useAuth();
   const { products } = useProducts();
   const addToast = useToastStore((state) => state.addToast);
 
@@ -47,8 +47,11 @@ export default function Header() {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
   // Authentication Fields
+  const [isRegisterMode, setIsRegisterMode] = useState(false);
   const [loginEmail, setLoginEmail] = useState('');
   const [loginPassword, setLoginPassword] = useState('123456'); // Pre-fill default demo pwd
+  const [registerName, setRegisterName] = useState('');
+  const [registerEmail, setRegisterEmail] = useState('');
 
   const searchRef = useRef<HTMLDivElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -102,6 +105,17 @@ export default function Header() {
     }
   };
 
+  const handleDemoRegister = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+      await register({ name: registerName, email: registerEmail });
+      addToast('Đăng ký tài khoản thành công! Đã tự động đăng nhập.', 'success');
+      setLoginModalOpen(false);
+    } catch (err: any) {
+      addToast(err.message || 'Lỗi đăng ký!', 'error');
+    }
+  };
+
   const handleLogoutClick = () => {
     logout();
     addToast('Đã đăng xuất tài khoản.', 'info');
@@ -117,7 +131,8 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-background/85 backdrop-blur-md border-b border-border transition-colors">
+    <>
+      <header className="sticky top-0 z-40 w-full bg-background/85 backdrop-blur-md border-b border-border transition-colors">
       <div className="max-w-7xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-4">
         {/* LOGO */}
         <Link href={ROUTES.HOME} className="flex items-center gap-1.5 shrink-0">
@@ -381,65 +396,144 @@ export default function Header() {
       )}
 
       {/* INLINE DEMO LOGIN POPUP MODAL */}
+      </header>
+
       {loginModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60" onClick={() => setLoginModalOpen(false)} />
           <div className="relative bg-background border border-border p-6 rounded-custom shadow-2xl max-w-sm w-full z-10 space-y-4 text-left">
             <button
               onClick={() => setLoginModalOpen(false)}
-              className="absolute top-4 right-4 text-foreground-muted hover:text-foreground"
+              className="absolute top-4 right-4 text-foreground-muted hover:text-foreground cursor-pointer"
             >
               <X size={16} />
             </button>
-            <h3 className="text-lg font-black text-foreground uppercase tracking-tight">Đăng Nhập Demo</h3>
-            <p className="text-[11px] text-foreground-muted">
-              Nhập email demo để test phân quyền. Mật khẩu mặc định là <span className="font-bold text-foreground">123456</span>.
-            </p>
 
-            <div className="space-y-1 bg-background-card-hover p-2.5 rounded-custom border border-border">
-              <p className="text-[9px] uppercase font-extrabold text-foreground-muted">Tài khoản mẫu:</p>
-              <p className="text-[10px] text-foreground-muted">
-                Admin: <span className="text-foreground font-mono select-all">admin1@prenippon.com</span>
-              </p>
-              <p className="text-[10px] text-foreground-muted">
-                Khách hàng: <span className="text-foreground font-mono select-all">customer1@gmail.com</span>
-              </p>
+            {/* Tab Selector */}
+            <div className="flex border-b border-border">
+              <button
+                type="button"
+                onClick={() => setIsRegisterMode(false)}
+                className={`flex-1 pb-2.5 text-xs font-black uppercase tracking-wider text-center border-b-2 transition-all cursor-pointer ${
+                  !isRegisterMode
+                    ? 'border-accent text-accent'
+                    : 'border-transparent text-foreground-muted hover:text-foreground'
+                }`}
+              >
+                Đăng Nhập
+              </button>
+              <button
+                type="button"
+                onClick={() => setIsRegisterMode(true)}
+                className={`flex-1 pb-2.5 text-xs font-black uppercase tracking-wider text-center border-b-2 transition-all cursor-pointer ${
+                  isRegisterMode
+                    ? 'border-accent text-accent'
+                    : 'border-transparent text-foreground-muted hover:text-foreground'
+                }`}
+              >
+                Đăng Ký
+              </button>
             </div>
 
-            <form onSubmit={handleDemoLogin} className="space-y-3 pt-2">
-              <div className="space-y-1">
-                <label className="text-[10px] uppercase font-bold text-foreground-muted">Email của bạn</label>
-                <input
-                  type="email"
-                  required
-                  placeholder="name@example.com"
-                  value={loginEmail}
-                  onChange={(e) => setLoginEmail(e.target.value)}
-                  className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
-                />
-              </div>
-              <div className="space-y-1">
-                <label className="text-[10px] uppercase font-bold text-foreground-muted">Mật khẩu</label>
-                <input
-                  type="password"
-                  required
-                  placeholder="Mật khẩu"
-                  value={loginPassword}
-                  onChange={(e) => setLoginPassword(e.target.value)}
-                  className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
-                />
-              </div>
-              <button
-                type="submit"
-                disabled={isLoggingIn}
-                className="w-full h-10 bg-accent hover:bg-accent-hover disabled:bg-zinc-800 disabled:text-foreground-muted text-white rounded-custom text-xs font-bold uppercase tracking-wider transition-all duration-200 mt-4 cursor-pointer"
-              >
-                {isLoggingIn ? 'Đang xác thực...' : 'Đăng Nhập'}
-              </button>
-            </form>
+            {!isRegisterMode ? (
+              <>
+                <p className="text-[11px] text-foreground-muted leading-relaxed">
+                  Nhập email demo để test phân quyền. Mật khẩu mặc định là <span className="font-bold text-foreground">123456</span>.
+                </p>
+
+                <div className="space-y-1 bg-background-card-hover p-2.5 rounded-custom border border-border">
+                  <p className="text-[9px] uppercase font-extrabold text-foreground-muted">Tài khoản mẫu:</p>
+                  <p className="text-[10px] text-foreground-muted">
+                    Admin: <span className="text-foreground font-mono select-all">admin1@prenippon.com</span>
+                  </p>
+                  <p className="text-[10px] text-foreground-muted">
+                    Khách hàng: <span className="text-foreground font-mono select-all">customer1@gmail.com</span>
+                  </p>
+                </div>
+
+                <form onSubmit={handleDemoLogin} className="space-y-3 pt-1">
+                  <div className="space-y-1">
+                    <label className="text-[10px] uppercase font-bold text-foreground-muted">Email của bạn</label>
+                    <input
+                      type="email"
+                      required
+                      placeholder="name@example.com"
+                      value={loginEmail}
+                      onChange={(e) => setLoginEmail(e.target.value)}
+                      className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                    />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[10px] uppercase font-bold text-foreground-muted">Mật khẩu</label>
+                    <input
+                      type="password"
+                      required
+                      placeholder="Mật khẩu"
+                      value={loginPassword}
+                      onChange={(e) => setLoginPassword(e.target.value)}
+                      className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={isLoggingIn}
+                    className="w-full h-10 bg-accent hover:bg-accent-hover disabled:bg-zinc-800 disabled:text-foreground-muted text-white rounded-custom text-xs font-bold uppercase tracking-wider transition-all duration-200 mt-4 cursor-pointer"
+                  >
+                    {isLoggingIn ? 'Đang xác thực...' : 'Đăng Nhập'}
+                  </button>
+                </form>
+              </>
+            ) : (
+              <>
+                <p className="text-[11px] text-foreground-muted leading-relaxed">
+                  Tạo tài khoản Demo mới. Hệ thống sẽ tự động gán phân quyền khách hàng (Customer).
+                </p>
+
+                <form onSubmit={handleDemoRegister} className="space-y-3 pt-1">
+                  <div className="space-y-1">
+                    <label className="text-[10px] uppercase font-bold text-foreground-muted">Tên hiển thị</label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Nguyễn Văn A"
+                      value={registerName}
+                      onChange={(e) => setRegisterName(e.target.value)}
+                      className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                    />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[10px] uppercase font-bold text-foreground-muted">Email của bạn</label>
+                    <input
+                      type="email"
+                      required
+                      placeholder="newuser@example.com"
+                      value={registerEmail}
+                      onChange={(e) => setRegisterEmail(e.target.value)}
+                      className="w-full h-10 bg-background-card border border-border rounded-custom px-3 text-xs font-semibold outline-none focus:border-accent text-foreground"
+                    />
+                  </div>
+                  <div className="space-y-1">
+                    <label className="text-[10px] uppercase font-bold text-foreground-muted">Mật khẩu khởi tạo</label>
+                    <input
+                      type="text"
+                      disabled
+                      value="123456 (Mặc định Demo)"
+                      className="w-full h-10 bg-background-card-hover border border-border rounded-custom px-3 text-xs font-bold text-foreground-muted cursor-not-allowed"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={isRegistering}
+                    className="w-full h-10 bg-accent hover:bg-accent-hover disabled:bg-zinc-800 disabled:text-foreground-muted text-white rounded-custom text-xs font-bold uppercase tracking-wider transition-all duration-200 mt-4 cursor-pointer"
+                  >
+                    {isRegistering ? 'Đang đăng ký...' : 'Đăng Ký Tài Khoản'}
+                  </button>
+                </form>
+              </>
+            )}
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }

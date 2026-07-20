@@ -130,7 +130,7 @@ export const apiClient = {
     if (url === '/auth/login') {
       const users = getMockTable<any>('users');
       const foundUser = users.find(
-        (u) => u.email === body.email && body.password === '123456' // Dummy password checker
+        (u) => u.email === body.email && body.password === '123456'
       );
       if (foundUser) {
         if (foundUser.status === 'BLOCKED') {
@@ -143,6 +143,31 @@ export const apiClient = {
         };
       }
       throw new Error('Email hoặc mật khẩu không chính xác!');
+    }
+
+    if (url === '/auth/register') {
+      const users = getMockTable<any>('users');
+      const exists = users.find((u) => u.email === body.email);
+      if (exists) {
+        throw new Error('Email đã được đăng ký sử dụng!');
+      }
+      const newUser = {
+        id: users.length + 1,
+        email: body.email,
+        name: body.name || 'Người dùng mới',
+        role: 'ROLE_CUSTOMER',
+        status: 'ACTIVE',
+        tier: 'BRONZE',
+        rewardPoints: 0,
+        createdAt: new Date().toISOString()
+      };
+      users.push(newUser);
+      localStorage.setItem('prenippon_users', JSON.stringify(users));
+      return {
+        statusCode: 201,
+        message: 'Register Success',
+        data: { user: newUser, token: 'mock-jwt-token-12345' } as unknown as T
+      };
     }
 
     if (url === '/products') {
