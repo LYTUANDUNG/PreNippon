@@ -110,8 +110,7 @@ body {
 /* Maps hardcoded Tailwind zinc classes dynamically to theme variables */
 
 .bg-zinc-950, 
-.bg-zinc-900, 
-.bg-black:not(.bg-accent) {
+.bg-zinc-900 {
   background-color: var(--background-card) !important;
 }
 
@@ -121,11 +120,7 @@ body {
 .bg-zinc-950\/20, 
 .bg-zinc-900\/50, 
 .bg-zinc-900\/40, 
-.bg-zinc-900\/30,
-.bg-black\/75,
-.bg-black\/60,
-.bg-black\/45,
-.bg-black\/40 {
+.bg-zinc-900\/30 {
   background-color: var(--background-card-hover) !important;
 }
 

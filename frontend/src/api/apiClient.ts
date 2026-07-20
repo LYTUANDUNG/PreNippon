@@ -16,6 +16,15 @@ const LATENCY = 500; // Simulated network delay in ms
 const initMockDB = () => {
   if (typeof window === 'undefined') return;
   
+  const DB_VERSION = 'v5'; // Increment version to force clear old database
+  const currentVersion = localStorage.getItem('prenippon_db_version');
+  
+  if (currentVersion !== DB_VERSION) {
+    const keys = ['products', 'categories', 'brands', 'series', 'banners', 'users', 'orders', 'blogs', 'reviews'];
+    keys.forEach(k => localStorage.removeItem(`prenippon_${k}`));
+    localStorage.setItem('prenippon_db_version', DB_VERSION);
+  }
+  
   const tables = {
     products: productsMock,
     categories: categoriesMock,
